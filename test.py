@@ -83,7 +83,17 @@ def display_statistics(words):
 		print(f"{key}:{value}")
 	print("\n\nPro tip: Choose words which have the letters with the highest frequency in the list!")
 
-#def suggest_next_word(words):
+def suggest_next_word(words):
+	#This function will suggest the next word based on the frequency of letters in the remaining list of words.
+	#The word with the highest sum of letter frequencies will be suggested as the next guess.
+	dictionary = {}
+	for ascii_value in range(97, 123):
+		stat = words.str.count(chr(ascii_value)).sum()
+		dictionary[chr(ascii_value)] = stat
+	scores = words.map(lambda word: sum(dictionary[char] for char in set(word)))
+	best_index = scores.idxmax()
+	suggested_word = words.loc[best_index]
+	print(f"\nSuggested next word is: {suggested_word} with a score of {scores.loc[best_index]}")
 
 
 #Read in the list of all possible words in Wordle.
@@ -107,6 +117,7 @@ This should help in choosing the next guess in the game; Basing the
 next guess on the most frequently occuring letters in the remaining list of words.
 '''
 display_statistics(words)
+suggest_next_word(words)
 
 continue_input = 1
 while continue_input:
@@ -122,7 +133,7 @@ while continue_input:
 	print_all_list_elements(words)
 
 	print("\n Let's suggest the next word based on the updated list:\n")
-	#suggest_next_word(words)
+	suggest_next_word(words)
 
 	continue_input = int(input("Continue? 1 for Yes, 0 to Exit!: "))
 	while continue_input not in range(2):
