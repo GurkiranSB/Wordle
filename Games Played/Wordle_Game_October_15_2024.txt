@@ -1,0 +1,415 @@
+Last login: Tue Oct 15 18:31:53 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Gurkirans-MacBook-Pro:~ gkb$ ls
+Applications			OneDrive
+Desktop				Pictures
+Documents			Public
+Downloads			PycharmProjects
+ECE506_graphs.zip		Untitled.ipynb
+Google Drive			edb_languagepack_2.app.zip
+IdeaProjects			edb_postgis_3_1_pg14.app.zip
+Library				exam.py
+Movies				opt
+Music				work
+(base) Gurkirans-MacBook-Pro:~ gkb$ cd Desktop/ls
+-bash: cd: Desktop/ls: No such file or directory
+(base) Gurkirans-MacBook-Pro:~ gkb$ cd Desktop/
+(base) Gurkirans-MacBook-Pro:Desktop gkb$ ls
+Gurkiran
+Screen Shot 2023-11-14 at 8.02.57 PM.png
+Screen Shot 2023-11-14 at 8.03.05 PM.png
+Screen Shot 2023-11-14 at 8.03.13 PM.png
+Screen Shot 2023-11-14 at 8.03.28 PM.png
+Screen Shot 2023-11-14 at 8.03.32 PM.png
+Screen Shot 2023-11-14 at 8.03.36 PM.png
+Screen Shot 2023-12-05 at 3.22.42 PM.png
+Screen Shot 2023-12-05 at 3.22.58 PM.png
+Screen Shot 2023-12-11 at 1.41.26 PM.png
+Screen Shot 2023-12-11 at 1.41.39 PM.png
+Screen Shot 2023-12-11 at 1.41.49 PM.png
+Screen Shot 2023-12-11 at 1.42.00 PM.png
+Screen Shot 2023-12-26 at 3.58.53 PM.png
+Screen Shot 2023-12-26 at 3.59.01 PM.png
+Screen Shot 2023-12-26 at 3.59.06 PM.png
+Screen Shot 2023-12-26 at 3.59.13 PM.png
+Screen Shot 2023-12-30 at 9.06.37 PM.png
+Screen Shot 2023-12-30 at 9.06.40 PM.png
+Screen Shot 2023-12-30 at 9.06.48 PM.png
+Screen Shot 2023-12-30 at 9.07.05 PM.png
+Screen Shot 2024-01-11 at 2.14.39 PM.png
+Screen Shot 2024-01-11 at 8.45.27 AM.png
+Screen Shot 2024-01-28 at 9.44.58 AM.png
+Screen Shot 2024-03-11 at 8.03.51 AM.png
+Screen Shot 2024-03-11 at 8.04.03 AM.png
+Screen Shot 2024-04-15 at 12.39.30 PM.png
+Screen Shot 2024-04-15 at 4.04.11 AM.png
+Screen Shot 2024-04-23 at 8.24.24 PM.png
+Screen Shot 2024-05-28 at 7.56.52 PM.png
+Screenshot 2024-09-18 at 6.49.05 PM.png
+everything else
+(base) Gurkirans-MacBook-Pro:Desktop gkb$ cd Gurkiran/SelfLearning/PersonalCode/pythonprograms/Wordle
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ ls
+Basic.terminal			test.py
+Terminal Saved Output.txt	words
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Enter the word you have already inputted in the game: tears
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bybyb
+The inputted word is:  tears
+Colors returned by the game are:  bybyb
+length of updated list =  131
+bluer
+borne
+boxer
+breed
+bribe
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+e:149
+r:148
+o:47
+i:47
+d:39
+p:30
+c:24
+u:22
+n:21
+g:19
+f:19
+l:17
+v:15
+b:15
+m:10
+w:9
+y:7
+h:6
+k:5
+z:2
+x:2
+q:1
+j:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+bluer
+borne
+boxer
+breed
+bribe
+bride
+brief
+brine
+broke
+buyer
+cheer
+cider
+corer
+cover
+cower
+credo
+creed
+creek
+creep
+creme
+crepe
+cried
+crier
+crime
+crone
+crude
+cruel
+curve
+cyber
+diner
+dirge
+diver
+dried
+drier
+drive
+drone
+drove
+dryer
+elder
+ember
+erode
+error
+fiber
+filer
+finer
+fixer
+flier
+flyer
+force
+forge
+foyer
+freed
+freer
+fried
+froze
+giver
+goner
+gorge
+greed
+green
+grief
+grime
+gripe
+grope
+grove
+gruel
+homer
+horde
+hover
+hyper
+idler
+infer
+inner
+joker
+liner
+liver
+lover
+lower
+miner
+mover
+mower
+nicer
+odder
+offer
+older
+order
+owner
+piper
+plier
+poker
+power
+preen
+price
+pride
+pried
+prime
+prize
+probe
+prone
+prove
+prude
+prune
+puree
+purer
+purge
+queer
+rhyme
+rider
+ridge
+rifle
+ripen
+riper
+river
+rodeo
+roger
+rogue
+rouge
+rover
+rower
+ruder
+ruler
+rupee
+udder
+ulcer
+under
+upper
+urine
+viper
+wider
+wooer
+wreck
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: pride
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bybby
+The inputted word is:  pride
+Colors returned by the game are:  bybby
+length of updated list =  28
+bluer
+boxer
+buyer
+cheer
+corer
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:33
+e:31
+o:20
+w:6
+l:6
+c:6
+v:5
+u:5
+b:5
+y:4
+m:4
+f:4
+h:3
+n:2
+g:2
+x:1
+q:1
+k:1
+j:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+bluer
+boxer
+buyer
+cheer
+corer
+cover
+cower
+cyber
+ember
+flyer
+foyer
+goner
+homer
+hover
+joker
+lover
+lower
+mover
+mower
+offer
+owner
+queer
+roger
+rover
+rower
+ruler
+ulcer
+wooer
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: cower
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): ggbgg
+The inputted word is:  cower
+Colors returned by the game are:  ggbgg
+length of updated list =  2
+corer
+cover
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:3
+o:2
+e:2
+c:2
+v:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+corer
+cover
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: cover
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): ggbgg
+The inputted word is:  cover
+Colors returned by the game are:  ggbgg
+length of updated list =  1
+corer
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:2
+o:1
+e:1
+c:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+corer
+Continue? 1 for Yes, 0 to Exit!: 

@@ -1,0 +1,671 @@
+Last login: Wed Nov 13 08:53:41 on ttys000
+Rishipals-MacBook-Pro:~ gurkiran$ python --version
+Python 3.13.0
+Rishipals-MacBook-Pro:~ gurkiran$ cd Desktop/Gurkiran/Python\ Programs/Wordle
+Rishipals-MacBook-Pro:Wordle gurkiran$ python test.py
+Traceback (most recent call last):
+  File "/Users/gurkiran/Desktop/Gurkiran/Python Programs/Wordle/test.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Rishipals-MacBook-Pro:Wordle gurkiran$ pip3 --version
+pip 24.2 from /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pip (python 3.13)
+Rishipals-MacBook-Pro:Wordle gurkiran$ pip install wheel
+-bash: /usr/local/bin/pip: /usr/local/opt/python@2/bin/python2.7: bad interpreter: No such file or directory
+Rishipals-MacBook-Pro:Wordle gurkiran$ pip --version
+-bash: /usr/local/bin/pip: /usr/local/opt/python@2/bin/python2.7: bad interpreter: No such file or directory
+Rishipals-MacBook-Pro:Wordle gurkiran$ pip3 install --upgrade pip
+Requirement already satisfied: pip in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (24.2)
+Collecting pip
+  Downloading pip-24.3.1-py3-none-any.whl.metadata (3.7 kB)
+Downloading pip-24.3.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 10.4 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.2
+    Uninstalling pip-24.2:
+      Successfully uninstalled pip-24.2
+Successfully installed pip-24.3.1
+Rishipals-MacBook-Pro:Wordle gurkiran$ pip --version
+-bash: /usr/local/bin/pip: /usr/local/opt/python@2/bin/python2.7: bad interpreter: No such file or directory
+Rishipals-MacBook-Pro:Wordle gurkiran$ pip3 --version
+pip 24.3.1 from /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pip (python 3.13)
+Rishipals-MacBook-Pro:Wordle gurkiran$ pip3 install pandas
+Collecting pandas
+  Downloading pandas-2.2.3-cp313-cp313-macosx_10_13_x86_64.whl.metadata (89 kB)
+Collecting numpy>=1.26.0 (from pandas)
+  Downloading numpy-2.1.3-cp313-cp313-macosx_10_13_x86_64.whl.metadata (62 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Downloading pytz-2024.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas)
+  Downloading tzdata-2024.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Downloading pandas-2.2.3-cp313-cp313-macosx_10_13_x86_64.whl (12.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.5/12.5 MB 5.0 MB/s eta 0:00:00
+Downloading numpy-2.1.3-cp313-cp313-macosx_10_13_x86_64.whl (20.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.8/20.8 MB 6.6 MB/s eta 0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading pytz-2024.2-py2.py3-none-any.whl (508 kB)
+Downloading tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, tzdata, six, numpy, python-dateutil, pandas
+Successfully installed numpy-2.1.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2024.2 six-1.16.0 tzdata-2024.2
+Rishipals-MacBook-Pro:Wordle gurkiran$ python test.py
+Traceback (most recent call last):
+  File "/Users/gurkiran/Desktop/Gurkiran/Python Programs/Wordle/test.py", line 89, in <module>
+    words = read_wordle_dictionary()
+  File "/Users/gurkiran/Desktop/Gurkiran/Python Programs/Wordle/test.py", line 5, in read_wordle_dictionary
+    words = pd.read_csv('words/words.csv', header = None, squeeze = True)
+TypeError: read_csv() got an unexpected keyword argument 'squeeze'
+Rishipals-MacBook-Pro:Wordle gurkiran$ python test.py
+Traceback (most recent call last):
+  File "/Users/gurkiran/Desktop/Gurkiran/Python Programs/Wordle/test.py", line 90, in <module>
+    words = read_wordle_dictionary()
+  File "/Users/gurkiran/Desktop/Gurkiran/Python Programs/Wordle/test.py", line 5, in read_wordle_dictionary
+    words = pd.read_csv('words/words.csv', header = None, squeeze = True)
+TypeError: read_csv() got an unexpected keyword argument 'squeeze'
+Rishipals-MacBook-Pro:Wordle gurkiran$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Enter the word you have already inputted in the game: treat
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbbb
+The inputted word is:  treat
+Colors returned by the game are:  bgbbb
+length of updated list =  65
+brick
+bring
+brink
+briny
+brisk
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:66
+o:43
+i:26
+n:19
+c:18
+p:16
+l:16
+d:16
+g:15
+k:13
+w:12
+s:12
+b:12
+u:11
+y:10
+m:8
+f:8
+h:2
+x:1
+v:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): n    
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: groin
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbyb
+The inputted word is:  groin
+Colors returned by the game are:  bgbyb
+length of updated list =  12
+brick
+brisk
+crick
+crimp
+crisp
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:12
+i:12
+l:6
+k:6
+c:6
+p:5
+s:4
+m:2
+f:2
+b:2
+y:1
+v:1
+d:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+brick
+brisk
+crick
+crimp
+crisp
+drill
+frill
+frisk
+krill
+prick
+prism
+privy
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: crisp
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bggbg
+The inputted word is:  crisp
+Colors returned by the game are:  bggbg
+length of updated list =  0
+Series([], )
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): n
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 0
+Rishipals-MacBook-Pro:Wordle gurkiran$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): treat
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Enter the word you have already inputted in the game: treat
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbbb
+The inputted word is:  treat
+Colors returned by the game are:  bgbbb
+length of updated list =  65
+brick
+bring
+brink
+briny
+brisk
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:66
+o:43
+i:26
+n:19
+c:18
+p:16
+l:16
+d:16
+g:15
+k:13
+w:12
+s:12
+b:12
+u:11
+y:10
+m:8
+f:8
+h:2
+x:1
+v:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): n
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: groin
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbyb
+The inputted word is:  groin
+Colors returned by the game are:  bgbyb
+length of updated list =  12
+brick
+brisk
+crick
+crimp
+crisp
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:12
+i:12
+l:6
+k:6
+c:6
+p:5
+s:4
+m:2
+f:2
+b:2
+y:1
+v:1
+d:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+brick
+brisk
+crick
+crimp
+crisp
+drill
+frill
+frisk
+krill
+prick
+prism
+privy
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: crisp
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bggbg
+The inputted word is:  crisp
+Colors returned by the game are:  bggbg
+length of updated list =  0
+Series([], )
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): n
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 0
+Rishipals-MacBook-Pro:Wordle gurkiran$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Enter the word you have already inputted in the game: treat
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbbb
+The inputted word is:  treat
+Colors returned by the game are:  bgbbb
+length of updated list =  65
+brick
+bring
+brink
+briny
+brisk
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:66
+o:43
+i:26
+n:19
+c:18
+p:16
+l:16
+d:16
+g:15
+k:13
+w:12
+s:12
+b:12
+u:11
+y:10
+m:8
+f:8
+h:2
+x:1
+v:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+brick
+bring
+brink
+briny
+brisk
+broil
+brood
+brook
+broom
+brown
+brush
+crick
+crimp
+crisp
+crock
+crony
+crook
+cross
+croup
+crowd
+crown
+crumb
+crump
+crush
+drill
+drink
+droll
+drool
+droop
+dross
+drown
+druid
+drunk
+dryly
+frill
+frisk
+frock
+frond
+frown
+grill
+grimy
+grind
+groin
+groom
+gross
+group
+growl
+grown
+gruff
+irony
+krill
+prick
+primo
+prior
+prism
+privy
+prong
+proof
+proud
+prowl
+proxy
+wring
+wrong
+wrung
+wryly
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: groin
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbyb
+The inputted word is:  groin
+Colors returned by the game are:  bgbyb
+length of updated list =  12
+brick
+brisk
+crick
+crimp
+crisp
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:12
+i:12
+l:6
+k:6
+c:6
+p:5
+s:4
+m:2
+f:2
+b:2
+y:1
+v:1
+d:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+brick
+brisk
+crick
+crimp
+crisp
+drill
+frill
+frisk
+krill
+prick
+prism
+privy
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: crisp
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bggbg
+The inputted word is:  crisp
+Colors returned by the game are:  bggbg
+length of updated list =  0
+Series([], )
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: 

@@ -1,0 +1,9 @@
+# macOS metadata
+.DS_Store
+
+# Game screenshots and other images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp

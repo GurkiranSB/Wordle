@@ -1,0 +1,12404 @@
+Last login: Sat Oct 12 17:01:51 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Gurkirans-MacBook-Pro:~ gkb$ ls
+Applications			OneDrive
+Desktop				Pictures
+Documents			Public
+Downloads			PycharmProjects
+ECE506_graphs.zip		Untitled.ipynb
+Google Drive			edb_languagepack_2.app.zip
+IdeaProjects			edb_postgis_3_1_pg14.app.zip
+Library				exam.py
+Movies				opt
+Music				work
+(base) Gurkirans-MacBook-Pro:~ gkb$ cd Desktop/
+(base) Gurkirans-MacBook-Pro:Desktop gkb$ ls
+Gurkiran
+Screen Shot 2023-11-14 at 8.02.57 PM.png
+Screen Shot 2023-11-14 at 8.03.05 PM.png
+Screen Shot 2023-11-14 at 8.03.13 PM.png
+Screen Shot 2023-11-14 at 8.03.28 PM.png
+Screen Shot 2023-11-14 at 8.03.32 PM.png
+Screen Shot 2023-11-14 at 8.03.36 PM.png
+Screen Shot 2023-12-05 at 3.22.42 PM.png
+Screen Shot 2023-12-05 at 3.22.58 PM.png
+Screen Shot 2023-12-11 at 1.41.26 PM.png
+Screen Shot 2023-12-11 at 1.41.39 PM.png
+Screen Shot 2023-12-11 at 1.41.49 PM.png
+Screen Shot 2023-12-11 at 1.42.00 PM.png
+Screen Shot 2023-12-26 at 3.58.53 PM.png
+Screen Shot 2023-12-26 at 3.59.01 PM.png
+Screen Shot 2023-12-26 at 3.59.06 PM.png
+Screen Shot 2023-12-26 at 3.59.13 PM.png
+Screen Shot 2023-12-30 at 9.06.37 PM.png
+Screen Shot 2023-12-30 at 9.06.40 PM.png
+Screen Shot 2023-12-30 at 9.06.48 PM.png
+Screen Shot 2023-12-30 at 9.07.05 PM.png
+Screen Shot 2024-01-11 at 2.14.39 PM.png
+Screen Shot 2024-01-11 at 8.45.27 AM.png
+Screen Shot 2024-01-28 at 9.44.58 AM.png
+Screen Shot 2024-03-11 at 8.03.51 AM.png
+Screen Shot 2024-03-11 at 8.04.03 AM.png
+Screen Shot 2024-04-15 at 12.39.30 PM.png
+Screen Shot 2024-04-15 at 4.04.11 AM.png
+Screen Shot 2024-04-23 at 8.24.24 PM.png
+Screen Shot 2024-05-28 at 7.56.52 PM.png
+Screenshot 2024-09-18 at 6.49.05 PM.png
+everything else
+(base) Gurkirans-MacBook-Pro:Desktop gkb$ cd Gurkiran/
+(base) Gurkirans-MacBook-Pro:Gurkiran gkb$ ls
+542 materials
+7712b3c5-8753-4d93-b0fd-0b95af6094ce.jpg
+Agreement Printable Page Fall2020(Financial Responsibility).pdf
+Agreement Printable Page.pdf
+Apply
+Bhatia a (1).docx
+Career
+English and Vocabulary
+Format I..docx
+Fun
+GK 32 GB MICROSD CARD
+Groceries
+Gurkiran_resume.pdf
+Health
+Job search
+Library
+Marketing Myopia Article.pdf
+Module 3 assignment--Comparison of tablet market leaders.docx
+NC_BILL_0719.pdf
+Obsidian
+Passport_latest.pdf
+Photos
+Planning
+RCL letter-to OIS-GB-8.6.20.pdf
+Rashika
+Reading
+Rental Apartments
+Screen Shot 2019-11-24 at 2.10.53 AM.png
+Screen Shot 2020-08-10 at 10.30.39 PM.png
+SelfLearning
+Side Ventures
+Taxes 2023
+Travel
+Vaccination Santa Clara
+Youtube
+code
+extra stuff
+funny.jpg
+funny1.jpg
+guidance 20212022
+ielts
+main.cpp
+ncsu
+opencvtesting
+screencapture-cs92prd-acs-ncsu-edu-psc-CS92PRD-17-EMPLOYEE-NCSIS-c-SSF-STUDENT-FL-SSF-FIN-ACCT-MD-FL-GBL-2019-11-20-07_42_49.png
+screenshots
+utils
+(base) Gurkirans-MacBook-Pro:Gurkiran gkb$ cd SelfLearning/
+(base) Gurkirans-MacBook-Pro:SelfLearning gkb$ ls
+Books		PersonalCode	online courses
+(base) Gurkirans-MacBook-Pro:SelfLearning gkb$ cd PersonalCode/
+(base) Gurkirans-MacBook-Pro:PersonalCode gkb$ ls
+Interview			github
+PythonDataAnalysisLinkedIn	pythonprograms
+Rprogramming
+(base) Gurkirans-MacBook-Pro:PersonalCode gkb$ cd pythonprograms/
+(base) Gurkirans-MacBook-Pro:pythonprograms gkb$ ls
+Arrays				SmoothingImage
+BST				Wordle
+Bank Statement Analysis		__pycache__
+Calculator			binarySearch.py
+Conv				command.txt
+Djikstra			concatenation
+Factorial_Program		convolution.jpg
+FitbitToCalendar		gaussianPyramid.py
+MatrixOperations		isLeap.py
+MeaningfulNames.jpg		leetcode
+MeaningfulNames.pdf		lena.jpg
+Online Game Code		linkedList.py
+ParkingLot			paddedCopyOfOriginal.jpg
+README.md
+(base) Gurkirans-MacBook-Pro:pythonprograms gkb$ cd Wordle/
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  10662
+       aahed
+0      aalii
+1      aargh
+2      aarti
+3      abaca
+4      abaci
+...      ...
+10657  zuzim
+10658  zygal
+10659  zygon
+10660  zymes
+10661  zymic
+
+[10662 rows x 1 columns]
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2314
+      aback
+0     abase
+1     abate
+2     abbey
+3     abbot
+4     abhor
+...     ...
+2309  young
+2310  youth
+2311  zebra
+2312  zesty
+2313  zonal
+
+[2314 rows x 1 columns]
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+          0
+0     aback
+1     abase
+2     abate
+3     abbey
+4     abbot
+...     ...
+2310  young
+2311  youth
+2312  zebra
+2313  zesty
+2314  zonal
+
+[2315 rows x 1 columns]
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+          0
+0     aback
+1     abase
+2     abate
+3     abbey
+4     abbot
+...     ...
+2310  young
+2311  youth
+2312  zebra
+2313  zesty
+2314  zonal
+
+[2315 rows x 1 columns]
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): y
+Enter the position (0 to 4): 2
+a y 2
+Continue? 1 for Yes, 0 for Success!: 1
+Enter the character: g
+Enter the color green (g), yellow (y), or grey (r): r
+g r 0
+Continue? 1 for Yes, 0 for Success!: 0
+Enter the character: h
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 3
+h g 3
+Continue? 1 for Yes, 0 for Success!: ^[^[^[^CTraceback (most recent call last):
+  File "test.py", line 19, in <module>
+    continue_input = input("Continue? 1 for Yes, 0 for Success!: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+          0
+0     aback
+1     abase
+2     abate
+3     abbey
+4     abbot
+...     ...
+2310  young
+2311  youth
+2312  zebra
+2313  zesty
+2314  zonal
+
+[2315 rows x 1 columns]
+Enter the character: g
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 2
+g g 2
+Traceback (most recent call last):
+  File "test.py", line 19, in <module>
+    continue_input = num(input("Continue? 1 for Yes, 0 for Success!: "))
+NameError: name 'num' is not defined
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+          0
+0     aback
+1     abase
+2     abate
+3     abbey
+4     abbot
+...     ...
+2310  young
+2311  youth
+2312  zebra
+2313  zesty
+2314  zonal
+
+[2315 rows x 1 columns]
+Enter the character: d
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 2
+d g 2
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: 0, Length: 2315, dtype: object
+Enter the character: ^[[A^[[A^CTraceback (most recent call last):
+  File "test.py", line 17, in <module>
+    while continue_input:
+  File "test.py", line 8, in get_input
+    def get_input():
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: 0, Length: 2315, dtype: object
+Enter the character: ^CTraceback (most recent call last):
+  File "test.py", line 18, in <module>
+    character, color, position = get_input()
+  File "test.py", line 9, in get_input
+    character = input("Enter the character: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: 0, Length: 2315, dtype: object
+Enter the character: ^CTraceback (most recent call last):
+  File "test.py", line 18, in <module>
+    character, color, position = get_input()
+  File "test.py", line 9, in get_input
+    character = input("Enter the character: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: 0, Length: 2315, dtype: object
+Enter the character: ^CTraceback (most recent call last):
+  File "test.py", line 18, in <module>
+    character, color, position = get_input()
+  File "test.py", line 9, in get_input
+    character = input("Enter the character: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: s
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+s g 1
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+Traceback (most recent call last):
+  File "test.py", line 27, in <module>
+    words = reduce_words(words, character, color, position)
+  File "test.py", line 20, in reduce_words
+    words = words[character not in words]
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 853, in __getitem__
+    return self._get_value(key)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 961, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/range.py", line 354, in get_loc
+    raise KeyError(key)
+KeyError: True
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+length =  0
+Series([], Name: Remaining Words, dtype: object)
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+length =  909
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2306    yacht
+2307    yearn
+2308    yeast
+2312    zebra
+2314    zonal
+Name: Remaining Words, Length: 909, dtype: object
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+0        True
+1        True
+2        True
+3        True
+4        True
+        ...  
+2310    False
+2311    False
+2312     True
+2313    False
+2314     True
+Name: Remaining Words, Length: 2315, dtype: bool
+length =  909
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2306    yacht
+2307    yearn
+2308    yeast
+2312    zebra
+2314    zonal
+Name: Remaining Words, Length: 909, dtype: object
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+0        True
+1        True
+2        True
+3        True
+4        True
+        ...  
+2310    False
+2311    False
+2312     True
+2313    False
+2314     True
+Name: Remaining Words, Length: 2315, dtype: bool
+Traceback (most recent call last):
+  File "test.py", line 29, in <module>
+    words = reduce_words(words, character, color, position)
+  File "test.py", line 21, in reduce_words
+    print(not words.str.contains(pat = character))
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+  File "test.py", line 21
+    print(!words.str.contains(pat = character))
+          ^
+SyntaxError: invalid syntax
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+  File "test.py", line 21
+    print(!words.str.contains(pat = character))
+          ^
+SyntaxError: invalid syntax
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+  File "test.py", line 22
+    words = words[!words.str.contains(pat = character)]
+                  ^
+SyntaxError: invalid syntax
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+0        True
+1        True
+2        True
+3        True
+4        True
+        ...  
+2310    False
+2311    False
+2312     True
+2313    False
+2314     True
+Name: Remaining Words, Length: 2315, dtype: bool
+0        True
+1        True
+2        True
+3        True
+4        True
+        ...  
+2310    False
+2311    False
+2312     True
+2313    False
+2314     True
+Name: Remaining Words, Length: 2315, dtype: bool
+Traceback (most recent call last):
+  File "test.py", line 29, in <module>
+    words = reduce_words(words, character, color, position)
+  File "test.py", line 22, in reduce_words
+    words = words[not words.str.contains(pat = character)]
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+0        True
+1        True
+2        True
+3        True
+4        True
+        ...  
+2310    False
+2311    False
+2312     True
+2313    False
+2314     True
+Name: Remaining Words, Length: 2315, dtype: bool
+0       False
+1       False
+2       False
+3       False
+4       False
+        ...  
+2310     True
+2311     True
+2312    False
+2313     True
+2314    False
+Name: Remaining Words, Length: 2315, dtype: bool
+length =  1406
+169     beech
+170     beefy
+171     befit
+174     beget
+175     begin
+        ...  
+2305    wryly
+2309    yield
+2310    young
+2311    youth
+2313    zesty
+Name: Remaining Words, Length: 1406, dtype: object
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+length =  909
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2306    yacht
+2307    yearn
+2308    yeast
+2312    zebra
+2314    zonal
+Name: Remaining Words, Length: 909, dtype: object
+Print each word?! (y/n): n
+Traceback (most recent call last):
+  File "test.py", line 35, in <module>
+    p = input("Print each word?! (y/n): ")
+NameError: name 'y' is not defined
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+  File "test.py", line 8
+    print("sample"[1] !=  ])
+                          ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+True
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+Traceback (most recent call last):
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 98, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index_class_helper.pxi", line 89, in pandas._libs.index.Int64Engine._check_type
+KeyError: '1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "test.py", line 32, in <module>
+    words = reduce_words(words, character, color, position)
+  File "test.py", line 23, in reduce_words
+    words = words[words[position] == character]
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 853, in __getitem__
+    return self._get_value(key)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 961, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+KeyError: '1'
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+True
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+Traceback (most recent call last):
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 98, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index_class_helper.pxi", line 89, in pandas._libs.index.Int64Engine._check_type
+KeyError: '1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "test.py", line 32, in <module>
+    words = reduce_words(words, character, color, position)
+  File "test.py", line 23, in reduce_words
+    words = words[lambda x: x[position] == character]
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 840, in __getitem__
+    key = com.apply_if_callable(key, self)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/common.py", line 329, in apply_if_callable
+    return maybe_callable(obj, **kwargs)
+  File "test.py", line 23, in <lambda>
+    words = words[lambda x: x[position] == character]
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 853, in __getitem__
+    return self._get_value(key)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 961, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+KeyError: '1'
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+True
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+Traceback (most recent call last):
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 98, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index_class_helper.pxi", line 89, in pandas._libs.index.Int64Engine._check_type
+KeyError: False
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "test.py", line 32, in <module>
+    words = reduce_words(words, character, color, position)
+  File "test.py", line 23, in reduce_words
+    words = words[lambda x: x[position] == character]
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 853, in __getitem__
+    return self._get_value(key)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/series.py", line 961, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/gkb/opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+KeyError: False
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+True
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): y
+Enter the position (0 to 4): 1
+a y 1
+length =  909
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2306    yacht
+2307    yearn
+2308    yeast
+2312    zebra
+2314    zonal
+Name: Remaining Words, Length: 909, dtype: object
+Print each word?! (y/n): n
+Continue? 1 for Yes, 0 for Success!: 1
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+length =  304
+141     bacon
+142     badge
+143     badly
+144     bagel
+145     baggy
+        ...  
+2232    watch
+2233    water
+2234    waver
+2235    waxen
+2306    yacht
+Name: Remaining Words, Length: 304, dtype: object
+Print each word?! (y/n): y
+bacon
+badge
+badly
+bagel
+baggy
+baker
+baler
+balmy
+banal
+banjo
+barge
+baron
+basal
+basic
+basil
+basin
+basis
+baste
+batch
+bathe
+baton
+batty
+bawdy
+bayou
+cabal
+cabby
+cabin
+cable
+cacao
+cache
+cacti
+caddy
+cadet
+cagey
+cairn
+camel
+cameo
+canal
+candy
+canny
+canoe
+canon
+caper
+caput
+carat
+cargo
+carol
+carry
+carve
+caste
+catch
+cater
+catty
+caulk
+cause
+cavil
+daddy
+daily
+dairy
+daisy
+dally
+dance
+dandy
+datum
+daunt
+eager
+eagle
+early
+earth
+easel
+eaten
+eater
+fable
+facet
+faint
+fairy
+faith
+false
+fancy
+fanny
+farce
+fatal
+fatty
+fault
+fauna
+favor
+gaffe
+gaily
+gamer
+gamma
+gamut
+gassy
+gaudy
+gauge
+gaunt
+gauze
+gavel
+gawky
+gayer
+gayly
+gazer
+habit
+hairy
+halve
+handy
+happy
+hardy
+harem
+harpy
+harry
+harsh
+haste
+hasty
+hatch
+hater
+haunt
+haute
+haven
+havoc
+hazel
+jaunt
+jazzy
+kappa
+karma
+kayak
+label
+labor
+laden
+ladle
+lager
+lance
+lanky
+lapel
+lapse
+large
+larva
+lasso
+latch
+later
+lathe
+latte
+laugh
+layer
+macaw
+macho
+macro
+madam
+madly
+mafia
+magic
+magma
+maize
+major
+maker
+mambo
+mamma
+mammy
+manga
+mange
+mango
+mangy
+mania
+manic
+manly
+manor
+maple
+march
+marry
+marsh
+mason
+masse
+match
+matey
+mauve
+maxim
+maybe
+mayor
+nadir
+naive
+nanny
+nasal
+nasty
+natal
+naval
+navel
+oaken
+paddy
+pagan
+paint
+paler
+palsy
+panel
+panic
+pansy
+papal
+paper
+parer
+parka
+parry
+parse
+party
+pasta
+paste
+pasty
+patch
+patio
+patsy
+patty
+pause
+payee
+payer
+rabbi
+rabid
+racer
+radar
+radii
+radio
+rainy
+raise
+rajah
+rally
+ralph
+ramen
+ranch
+randy
+range
+rapid
+rarer
+raspy
+ratio
+ratty
+raven
+rayon
+razor
+sadly
+safer
+saint
+salad
+sally
+salon
+salsa
+salty
+salve
+salvo
+sandy
+saner
+sappy
+sassy
+satin
+satyr
+sauce
+saucy
+sauna
+saute
+savor
+savoy
+savvy
+tabby
+table
+taboo
+tacit
+tacky
+taffy
+taint
+taken
+taker
+tally
+talon
+tamer
+tango
+tangy
+taper
+tapir
+tardy
+tarot
+taste
+tasty
+tatty
+taunt
+tawny
+vague
+valet
+valid
+valor
+value
+valve
+vapid
+vapor
+vault
+vaunt
+wacky
+wafer
+wager
+wagon
+waist
+waive
+waltz
+warty
+waste
+watch
+water
+waver
+waxen
+yacht
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+length =  2315
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2310    young
+2311    youth
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Words, Length: 2315, dtype: object
+True
+Enter the character: l
+Enter the color green (g), yellow (y), or grey (r): y
+Enter the position (0 to 4): 4
+l y 4
+length =  492
+7       abled
+27      adult
+37      agile
+39      aglow
+45      aisle
+        ...  
+2283    wooly
+2286    world
+2291    would
+2305    wryly
+2309    yield
+Name: Remaining Words, Length: 492, dtype: object
+Print each word?! (y/n): n
+Continue? 1 for Yes, 0 for Success!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+The length of the list of all possible words is  2315
+Here are some of the words from the list: 
+
+0    aback
+1    abase
+2    abate
+3    abbey
+4    abbot
+Name: Words, dtype: object
+True
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+length =  304
+141     bacon
+142     badge
+143     badly
+144     bagel
+145     baggy
+        ...  
+2232    watch
+2233    water
+2234    waver
+2235    waxen
+2306    yacht
+Name: Remaining Words, Length: 304, dtype: object
+Print each word?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+0    aback
+1    abase
+2    abate
+3    abbey
+4    abbot
+Name: Words, dtype: object
+True
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+length =  304
+141     bacon
+142     badge
+143     badly
+144     bagel
+145     baggy
+        ...  
+2232    watch
+2233    water
+2234    waver
+2235    waxen
+2306    yacht
+Name: Remaining Words, Length: 304, dtype: object
+Print each word?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+True
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): g
+Enter the position (0 to 4): 1
+a g 1
+length =  304
+141     bacon
+142     badge
+143     badly
+144     bagel
+145     baggy
+        ...  
+2232    watch
+2233    water
+2234    waver
+2235    waxen
+2306    yacht
+Name: Remaining Words, Length: 304, dtype: object
+Print each word?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter the character: a
+Enter the color green (g), yellow (y), or grey (r): r
+a r 0
+length =  1406
+169     beech
+170     beefy
+171     befit
+174     beget
+175     begin
+        ...  
+2305    wryly
+2309    yield
+2310    young
+2311    youth
+2313    zesty
+Name: Remaining Words, Length: 1406, dtype: object
+Print each word?! (y/n): y
+beech
+beefy
+befit
+beget
+begin
+begun
+being
+belch
+belie
+belle
+belly
+below
+bench
+beret
+berry
+berth
+beset
+betel
+bevel
+bezel
+bible
+bicep
+biddy
+bigot
+bilge
+billy
+binge
+bingo
+biome
+birch
+birth
+bison
+bitty
+bleed
+bleep
+blend
+bless
+blimp
+blind
+blink
+bliss
+blitz
+block
+bloke
+blond
+blood
+bloom
+blown
+bluer
+bluff
+blunt
+blurb
+blurt
+blush
+bobby
+boney
+bongo
+bonus
+booby
+boost
+booth
+booty
+booze
+boozy
+borne
+bosom
+bossy
+botch
+bough
+boule
+bound
+bowel
+boxer
+breed
+bribe
+brick
+bride
+brief
+brine
+bring
+brink
+briny
+brisk
+broil
+broke
+brood
+brook
+broom
+broth
+brown
+brunt
+brush
+brute
+buddy
+budge
+buggy
+bugle
+build
+built
+bulge
+bulky
+bully
+bunch
+bunny
+burly
+burnt
+burst
+bused
+bushy
+butch
+butte
+buxom
+buyer
+cello
+check
+cheek
+cheer
+chess
+chest
+chick
+chide
+chief
+child
+chili
+chill
+chime
+chirp
+chock
+choir
+choke
+chord
+chore
+chose
+chuck
+chump
+chunk
+churn
+chute
+cider
+cinch
+civic
+civil
+cleft
+clerk
+click
+cliff
+climb
+cling
+clink
+clock
+clone
+close
+cloth
+cloud
+clout
+clove
+clown
+cluck
+clued
+clump
+clung
+colon
+color
+comet
+comfy
+comic
+conch
+condo
+conic
+copse
+corer
+corny
+couch
+cough
+could
+count
+coupe
+court
+coven
+cover
+covet
+covey
+cower
+coyly
+credo
+creed
+creek
+creep
+creme
+crepe
+crept
+cress
+crest
+crick
+cried
+crier
+crime
+crimp
+crisp
+crock
+crone
+crony
+crook
+cross
+croup
+crowd
+crown
+crude
+cruel
+crumb
+crump
+crush
+crust
+crypt
+cubic
+cumin
+curio
+curly
+curry
+curse
+curve
+curvy
+cutie
+cyber
+cycle
+cynic
+debit
+debug
+debut
+decor
+decoy
+decry
+defer
+deign
+deity
+delve
+demon
+demur
+denim
+dense
+depot
+depth
+derby
+deter
+detox
+deuce
+devil
+dicey
+digit
+dilly
+dimly
+diner
+dingo
+dingy
+diode
+dirge
+dirty
+disco
+ditch
+ditto
+ditty
+diver
+dizzy
+dodge
+dodgy
+doing
+dolly
+donor
+donut
+dopey
+doubt
+dough
+dowdy
+dowel
+downy
+dowry
+dozen
+dress
+dried
+drier
+drift
+drill
+drink
+drive
+droit
+droll
+drone
+drool
+droop
+dross
+drove
+drown
+druid
+drunk
+dryer
+dryly
+duchy
+dully
+dummy
+dumpy
+dunce
+dusky
+dusty
+dutch
+duvet
+dwell
+dwelt
+dying
+ebony
+edict
+edify
+eerie
+egret
+eight
+eject
+eking
+elbow
+elder
+elect
+elegy
+elfin
+elide
+elite
+elope
+elude
+embed
+ember
+emcee
+empty
+endow
+enemy
+enjoy
+ennui
+ensue
+enter
+entry
+envoy
+epoch
+epoxy
+equip
+erect
+erode
+error
+erupt
+ester
+ether
+ethic
+ethos
+etude
+event
+every
+evict
+evoke
+excel
+exert
+exile
+exist
+expel
+extol
+exult
+eying
+feign
+felon
+femme
+femur
+fence
+ferry
+fetch
+fetid
+fetus
+fever
+fewer
+fiber
+fibre
+ficus
+field
+fiend
+fiery
+fifth
+fifty
+fight
+filer
+filet
+filly
+filmy
+filth
+finch
+finer
+first
+fishy
+fixer
+fizzy
+fjord
+fleck
+fleet
+flesh
+flick
+flier
+fling
+flint
+flirt
+flock
+flood
+floor
+floss
+flour
+flout
+flown
+fluff
+fluid
+fluke
+flume
+flung
+flunk
+flush
+flute
+flyer
+focus
+foggy
+foist
+folio
+folly
+force
+forge
+forgo
+forte
+forth
+forty
+forum
+found
+foyer
+freed
+freer
+fresh
+fried
+frill
+frisk
+fritz
+frock
+frond
+front
+frost
+froth
+frown
+froze
+fruit
+fudge
+fugue
+fully
+fungi
+funky
+funny
+furor
+furry
+fussy
+fuzzy
+gecko
+geeky
+geese
+genie
+genre
+ghost
+ghoul
+giddy
+gipsy
+girly
+girth
+given
+giver
+glide
+glint
+globe
+gloom
+glory
+gloss
+glove
+glyph
+gnome
+godly
+going
+golem
+golly
+goner
+goody
+gooey
+goofy
+goose
+gorge
+gouge
+gourd
+greed
+green
+greet
+grief
+grill
+grime
+grimy
+grind
+gripe
+groin
+groom
+grope
+gross
+group
+grout
+grove
+growl
+grown
+gruel
+gruff
+grunt
+guess
+guest
+guide
+guild
+guile
+guilt
+guise
+gulch
+gully
+gumbo
+gummy
+guppy
+gusto
+gusty
+gypsy
+hedge
+hefty
+heist
+helix
+hello
+hence
+heron
+hilly
+hinge
+hippo
+hippy
+hitch
+hobby
+hoist
+holly
+homer
+honey
+honor
+horde
+horny
+horse
+hotel
+hotly
+hound
+house
+hovel
+hover
+howdy
+humid
+humor
+humph
+humus
+hunch
+hunky
+hurry
+husky
+hussy
+hutch
+hydro
+hymen
+hyper
+icily
+icing
+idiom
+idiot
+idler
+idyll
+igloo
+imbue
+impel
+imply
+inbox
+incur
+index
+inept
+inert
+infer
+ingot
+inlet
+inner
+input
+inter
+intro
+ionic
+irony
+islet
+issue
+itchy
+ivory
+jelly
+jerky
+jetty
+jewel
+jiffy
+joint
+joist
+joker
+jolly
+joust
+judge
+juice
+juicy
+jumbo
+jumpy
+junto
+juror
+kinky
+kiosk
+kitty
+kneed
+kneel
+knelt
+knife
+knock
+knoll
+known
+krill
+ledge
+leech
+leery
+lefty
+leggy
+lemon
+lemur
+leper
+level
+lever
+libel
+liege
+light
+liken
+limbo
+limit
+linen
+liner
+lingo
+lipid
+lithe
+liver
+livid
+lobby
+locus
+lodge
+lofty
+logic
+login
+loopy
+loose
+lorry
+loser
+louse
+lousy
+lover
+lower
+lowly
+lucid
+lucky
+lumen
+lumpy
+lunch
+lunge
+lupus
+lurch
+lurid
+lusty
+lying
+lymph
+lynch
+lyric
+medic
+melee
+melon
+mercy
+merge
+merit
+merry
+meter
+metro
+micro
+midge
+midst
+might
+milky
+mimic
+mince
+miner
+minim
+minor
+minty
+minus
+mirth
+miser
+missy
+model
+modem
+mogul
+moist
+moldy
+money
+month
+moody
+moose
+moron
+morph
+mossy
+motel
+motif
+motor
+motto
+moult
+mound
+mount
+mourn
+mouse
+mouth
+mover
+movie
+mower
+mucky
+mucus
+muddy
+mulch
+mummy
+munch
+murky
+mushy
+music
+musky
+musty
+myrrh
+needy
+neigh
+nerdy
+nerve
+never
+newer
+newly
+nicer
+niche
+niece
+night
+ninny
+ninth
+noble
+nobly
+noise
+noisy
+noose
+north
+nosey
+notch
+novel
+nudge
+nurse
+nutty
+nylon
+nymph
+obese
+occur
+octet
+odder
+oddly
+offer
+often
+olden
+older
+olive
+ombre
+onion
+onset
+opine
+opium
+optic
+orbit
+order
+other
+otter
+ought
+ounce
+outdo
+outer
+outgo
+overt
+ovine
+ovoid
+owing
+owner
+oxide
+ozone
+pence
+penne
+penny
+perch
+peril
+perky
+pesky
+pesto
+petty
+phone
+phony
+photo
+picky
+piece
+piety
+piggy
+pilot
+pinch
+piney
+pinky
+pinto
+piper
+pique
+pitch
+pithy
+pivot
+pixel
+pixie
+plied
+plier
+pluck
+plumb
+plume
+plump
+plunk
+plush
+poesy
+point
+poise
+poker
+polyp
+pooch
+poppy
+porch
+poser
+posit
+posse
+pouch
+pound
+pouty
+power
+preen
+press
+price
+prick
+pride
+pried
+prime
+primo
+print
+prior
+prism
+privy
+prize
+probe
+prone
+prong
+proof
+prose
+proud
+prove
+prowl
+proxy
+prude
+prune
+pubic
+pudgy
+puffy
+pulpy
+pulse
+punch
+pupil
+puppy
+puree
+purer
+purge
+purse
+pushy
+putty
+pygmy
+queen
+queer
+quell
+query
+quest
+queue
+quick
+quiet
+quill
+quilt
+quirk
+quite
+quote
+quoth
+rebel
+rebus
+rebut
+recur
+recut
+reedy
+refer
+refit
+reign
+relic
+remit
+renew
+repel
+reply
+rerun
+reset
+resin
+retch
+retro
+retry
+reuse
+revel
+revue
+rhino
+rhyme
+rider
+ridge
+rifle
+right
+rigid
+rigor
+rinse
+ripen
+riper
+risen
+riser
+risky
+river
+rivet
+robin
+robot
+rocky
+rodeo
+roger
+rogue
+roomy
+roost
+rotor
+rouge
+rough
+round
+rouse
+route
+rover
+rowdy
+rower
+ruddy
+ruder
+rugby
+ruler
+rumor
+rupee
+rusty
+scene
+scent
+scion
+scoff
+scold
+scone
+scoop
+scope
+score
+scorn
+scour
+scout
+scowl
+scree
+screw
+scrub
+scrum
+seedy
+segue
+seize
+semen
+sense
+serif
+serum
+serve
+setup
+seven
+sever
+sewer
+sheen
+sheep
+sheer
+sheet
+sheik
+shelf
+shell
+shied
+shift
+shine
+shiny
+shire
+shirk
+shirt
+shock
+shone
+shook
+shoot
+shore
+shorn
+short
+shout
+shove
+shown
+showy
+shrew
+shrub
+shrug
+shuck
+shunt
+shush
+shyly
+siege
+sieve
+sight
+silky
+silly
+since
+sinew
+singe
+siren
+sissy
+sixth
+sixty
+skier
+skiff
+skill
+skimp
+skirt
+skulk
+skull
+skunk
+sleek
+sleep
+sleet
+slept
+slice
+slick
+slide
+slime
+slimy
+sling
+slink
+sloop
+slope
+slosh
+sloth
+slump
+slung
+slunk
+slurp
+slush
+slyly
+smell
+smelt
+smile
+smirk
+smite
+smith
+smock
+smoke
+smoky
+smote
+sneer
+snide
+sniff
+snipe
+snoop
+snore
+snort
+snout
+snowy
+snuck
+snuff
+sober
+soggy
+solid
+solve
+sonic
+sooth
+sooty
+sorry
+sound
+south
+sower
+speck
+speed
+spell
+spelt
+spend
+spent
+sperm
+spice
+spicy
+spied
+spiel
+spike
+spiky
+spill
+spilt
+spine
+spiny
+spire
+spite
+split
+spoil
+spoke
+spoof
+spook
+spool
+spoon
+spore
+sport
+spout
+spree
+sprig
+spunk
+spurn
+spurt
+squib
+steed
+steel
+steep
+steer
+stein
+stern
+stick
+stiff
+still
+stilt
+sting
+stink
+stint
+stock
+stoic
+stoke
+stole
+stomp
+stone
+stony
+stood
+stool
+stoop
+store
+stork
+storm
+story
+stout
+stove
+strip
+strut
+stuck
+study
+stuff
+stump
+stung
+stunk
+stunt
+style
+suing
+suite
+sulky
+sully
+sunny
+super
+surer
+surge
+surly
+sushi
+sweep
+sweet
+swell
+swept
+swift
+swill
+swine
+swing
+swirl
+swish
+swoon
+swoop
+sword
+swore
+sworn
+swung
+synod
+syrup
+teddy
+teeth
+tempo
+tenet
+tenor
+tense
+tenth
+tepee
+tepid
+terse
+testy
+theft
+their
+theme
+there
+these
+thick
+thief
+thigh
+thing
+think
+third
+thong
+thorn
+those
+three
+threw
+throb
+throw
+thrum
+thumb
+thump
+thyme
+tiger
+tight
+tilde
+timer
+timid
+tipsy
+tithe
+title
+toddy
+token
+tonic
+tooth
+topic
+torch
+torso
+torus
+totem
+touch
+tough
+towel
+tower
+toxic
+toxin
+trend
+tribe
+trice
+trick
+tried
+tripe
+trite
+troll
+troop
+trope
+trout
+trove
+truce
+truck
+truer
+truly
+trump
+trunk
+truss
+trust
+truth
+tryst
+tuber
+tulip
+tulle
+tumor
+tunic
+turbo
+tutor
+tweed
+tweet
+twice
+twine
+twirl
+twist
+twixt
+tying
+udder
+ulcer
+uncle
+uncut
+under
+undid
+undue
+unfed
+unfit
+unify
+union
+unite
+unity
+unlit
+unmet
+unset
+untie
+until
+unwed
+unzip
+upper
+upset
+urine
+usher
+using
+usurp
+utile
+utter
+venom
+venue
+verge
+verse
+verso
+verve
+video
+vigil
+vigor
+vinyl
+viper
+virus
+visit
+visor
+vivid
+vixen
+vogue
+voice
+vomit
+voter
+vouch
+vowel
+vying
+wedge
+weedy
+weigh
+weird
+welch
+welsh
+wench
+wheel
+whelp
+where
+which
+whiff
+while
+whine
+whiny
+whirl
+whisk
+white
+whole
+whoop
+whose
+widen
+wider
+widow
+width
+wield
+wight
+willy
+wimpy
+wince
+winch
+windy
+wiser
+wispy
+witch
+witty
+woken
+women
+woody
+wooer
+wooly
+woozy
+wordy
+world
+worry
+worse
+worst
+worth
+would
+wound
+woven
+wreck
+wrest
+wring
+wrist
+write
+wrong
+wrote
+wrung
+wryly
+yield
+young
+youth
+zesty
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 2
+a g 2
+length =  307
+0       aback
+1       abase
+2       abate
+18      adage
+19      adapt
+        ...  
+2247    wharf
+2294    wrack
+2295    wrath
+2307    yearn
+2308    yeast
+Name: Remaining Words, Length: 307, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: b
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+Traceback (most recent call last):
+  File "test.py", line 34, in <module>
+    character, color, position = get_input()
+  File "test.py", line 19, in get_input
+    return(character, color, position)
+UnboundLocalError: local variable 'position' referenced before assignment
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 2
+a g 2
+length =  307
+0       aback
+1       abase
+2       abate
+18      adage
+19      adapt
+        ...  
+2247    wharf
+2294    wrack
+2295    wrath
+2307    yearn
+2308    yeast
+Name: Remaining Words, Length: 307, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: b
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+b b 10
+length =  279
+18      adage
+19      adapt
+33      again
+34      agape
+35      agate
+        ...  
+2247    wharf
+2294    wrack
+2295    wrath
+2307    yearn
+2308    yeast
+Name: Remaining Words, Length: 279, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: c
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+c b 10
+length =  209
+18      adage
+19      adapt
+33      again
+34      agape
+35      agate
+        ...  
+2246    whale
+2247    wharf
+2295    wrath
+2307    yearn
+2308    yeast
+Name: Remaining Words, Length: 209, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: k
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+k b 10
+length =  179
+18      adage
+19      adapt
+33      again
+34      agape
+35      agate
+        ...  
+2246    whale
+2247    wharf
+2295    wrath
+2307    yearn
+2308    yeast
+Name: Remaining Words, Length: 179, dtype: object
+Print each word from this list?! (y/n): y
+adage
+adapt
+again
+agape
+agate
+alarm
+amass
+amaze
+apart
+avail
+await
+award
+aware
+awash
+dealt
+death
+diary
+draft
+drain
+drama
+drape
+drawl
+drawn
+dwarf
+elate
+email
+erase
+evade
+exalt
+feast
+flail
+flair
+flame
+flare
+flash
+foamy
+frail
+frame
+fraud
+giant
+glade
+gland
+glare
+glass
+glaze
+gnash
+grade
+graft
+grail
+grain
+grand
+grant
+grape
+graph
+grasp
+grass
+grate
+grave
+gravy
+graze
+guard
+guava
+heady
+heard
+heart
+heath
+heave
+heavy
+hoard
+image
+inane
+irate
+leafy
+leant
+leapt
+learn
+lease
+leash
+least
+leave
+llama
+loamy
+loath
+mealy
+meant
+meaty
+ovary
+ovate
+pearl
+phase
+piano
+plaid
+plain
+plait
+plane
+plant
+plate
+plaza
+prawn
+psalm
+quail
+qualm
+quart
+quash
+quasi
+ready
+realm
+rearm
+roast
+shade
+shady
+shaft
+shale
+shall
+shalt
+shame
+shape
+shard
+share
+sharp
+shave
+shawl
+slain
+slang
+slant
+slash
+slate
+slave
+small
+smart
+smash
+snail
+snare
+snarl
+soapy
+spade
+spare
+spasm
+spawn
+staff
+stage
+staid
+stain
+stair
+stale
+stall
+stamp
+stand
+stare
+start
+stash
+state
+stave
+suave
+swami
+swamp
+swarm
+swash
+swath
+teary
+tease
+tiara
+toast
+trade
+trail
+train
+trait
+tramp
+trash
+trawl
+twang
+usage
+weary
+weave
+whale
+wharf
+wrath
+yearn
+yeast
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: t
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 0
+t y 0
+length =  51
+19      adapt
+35      agate
+93      apart
+130     await
+521     dealt
+522     death
+581     draft
+639     elate
+685     exalt
+709     feast
+853     giant
+893     graft
+897     grant
+902     grate
+967     heart
+968     heath
+1043    irate
+1110    leant
+1111    leapt
+1115    least
+1144    loath
+1212    meant
+1213    meaty
+1354    ovate
+1428    plait
+1431    plant
+1432    plate
+1509    quart
+1604    roast
+1701    shaft
+1706    shalt
+1775    slant
+1777    slate
+1802    smart
+1896    staff
+1897    stage
+1898    staid
+1899    stain
+1900    stair
+1902    stale
+1904    stall
+1905    stamp
+1906    stand
+1908    stare
+1910    start
+1911    stash
+1912    state
+1913    stave
+1977    swath
+2295    wrath
+2308    yeast
+Name: Remaining Words, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: r
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+r b 10
+length =  37
+19      adapt
+35      agate
+130     await
+521     dealt
+522     death
+639     elate
+685     exalt
+709     feast
+853     giant
+968     heath
+1110    leant
+1111    leapt
+1115    least
+1144    loath
+1212    meant
+1213    meaty
+1354    ovate
+1428    plait
+1431    plant
+1432    plate
+1701    shaft
+1706    shalt
+1775    slant
+1777    slate
+1896    staff
+1897    stage
+1898    staid
+1899    stain
+1902    stale
+1904    stall
+1905    stamp
+1906    stand
+1911    stash
+1912    state
+1913    stave
+1977    swath
+2308    yeast
+Name: Remaining Words, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: i
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 3
+i g 3
+length =  4
+130     await
+1428    plait
+1898    staid
+1899    stain
+Name: Remaining Words, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: n
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 4
+n g 4
+length =  1
+1899    stain
+Name: Remaining Words, dtype: object
+Print each word from this list?! (y/n): y
+stain
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter a character you have already inputted in the game: h
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+h b 10
+length =  1936
+0       aback
+1       abase
+2       abate
+3       abbey
+4       abbot
+        ...  
+2309    yield
+2310    young
+2312    zebra
+2313    zesty
+2314    zonal
+Name: Remaining Words, Length: 1936, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: o
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+o b 10
+length =  1361
+0       aback
+1       abase
+2       abate
+3       abbey
+6       abide
+        ...  
+2307    yearn
+2308    yeast
+2309    yield
+2312    zebra
+2313    zesty
+Name: Remaining Words, Length: 1361, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: r
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+r b 10
+length =  846
+0       aback
+1       abase
+2       abate
+3       abbey
+6       abide
+        ...  
+2275    wispy
+2277    witty
+2308    yeast
+2309    yield
+2313    zesty
+Name: Remaining Words, Length: 846, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: s
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+s b 10
+length =  573
+0       aback
+2       abate
+3       abbey
+6       abide
+7       abled
+        ...  
+2270    wimpy
+2271    wince
+2273    windy
+2277    witty
+2309    yield
+Name: Remaining Words, Length: 573, dtype: object
+Print each word from this list?! (y/n): y
+aback
+abate
+abbey
+abide
+abled
+acute
+adage
+adapt
+adept
+admin
+admit
+adult
+affix
+again
+agape
+agate
+agent
+agile
+aging
+album
+algae
+alibi
+alien
+align
+alike
+alive
+allay
+alley
+amaze
+amble
+amend
+amity
+ample
+amply
+angel
+angle
+anime
+ankle
+annex
+annul
+antic
+anvil
+aping
+apnea
+apple
+apply
+aptly
+attic
+audit
+aunty
+avail
+avian
+await
+awake
+awful
+axial
+badge
+badly
+bagel
+baggy
+balmy
+banal
+batty
+bawdy
+beady
+beefy
+befit
+began
+begat
+beget
+begin
+begun
+being
+belie
+belle
+belly
+betel
+bevel
+bezel
+bible
+bicep
+biddy
+bilge
+billy
+binge
+bitty
+black
+blade
+blame
+bland
+blank
+blaze
+bleak
+bleat
+bleed
+bleep
+blend
+blimp
+blind
+blink
+blitz
+bluff
+blunt
+buddy
+budge
+buggy
+bugle
+build
+built
+bulge
+bulky
+bully
+bunny
+butte
+bylaw
+cabal
+cabby
+cabin
+cable
+cacti
+caddy
+cadet
+cagey
+camel
+canal
+candy
+canny
+caput
+catty
+caulk
+cavil
+civic
+civil
+clack
+claim
+clamp
+clang
+clank
+clean
+cleat
+cleft
+click
+cliff
+climb
+cling
+clink
+cluck
+clued
+clump
+clung
+cubic
+cumin
+cutie
+cycle
+cynic
+daddy
+daily
+dally
+dance
+dandy
+datum
+daunt
+dealt
+debit
+debug
+debut
+decal
+decay
+deign
+deity
+delay
+delta
+delve
+denim
+deuce
+devil
+dicey
+digit
+dilly
+dimly
+dingy
+ditty
+dizzy
+dully
+dummy
+dumpy
+dunce
+duvet
+dwell
+dwelt
+dying
+eagle
+eaten
+eclat
+edict
+edify
+eject
+eking
+elate
+elect
+elegy
+elfin
+elide
+elite
+elude
+email
+embed
+emcee
+empty
+enact
+enema
+enemy
+ennui
+equal
+equip
+etude
+evade
+event
+evict
+exact
+exalt
+excel
+exile
+expel
+exult
+eying
+fable
+facet
+faint
+fancy
+fanny
+fatal
+fatty
+fault
+fauna
+fecal
+feign
+fella
+femme
+fence
+fetal
+fetid
+field
+fiend
+fifty
+filet
+filly
+filmy
+final
+fizzy
+flack
+flail
+flake
+flaky
+flame
+flank
+fleck
+fleet
+flick
+fling
+flint
+fluff
+fluid
+fluke
+flume
+flung
+flunk
+flute
+fudge
+fugue
+fully
+fungi
+funky
+funny
+fuzzy
+gaffe
+gaily
+gamma
+gamut
+gaudy
+gauge
+gaunt
+gauze
+gavel
+gawky
+gayly
+geeky
+genie
+giant
+giddy
+given
+glade
+gland
+glaze
+gleam
+glean
+glide
+glint
+guava
+guide
+guild
+guile
+guilt
+gully
+gummy
+guppy
+icily
+icing
+ideal
+idyll
+iliac
+image
+imbue
+impel
+imply
+inane
+index
+inept
+inlay
+inlet
+input
+jaunt
+jazzy
+jelly
+jetty
+jewel
+jiffy
+judge
+juice
+juicy
+jumpy
+junta
+kappa
+kayak
+kebab
+kinky
+kitty
+knack
+knave
+knead
+kneed
+kneel
+knelt
+knife
+label
+laden
+ladle
+lance
+lanky
+lapel
+latte
+leafy
+leaky
+leant
+leapt
+leave
+ledge
+lefty
+legal
+leggy
+level
+libel
+liege
+liken
+lilac
+limit
+linen
+lipid
+livid
+llama
+lucid
+lucky
+lumen
+lumpy
+lunge
+lying
+macaw
+madam
+madly
+mafia
+magic
+magma
+maize
+mamma
+mammy
+manga
+mange
+mangy
+mania
+manic
+manly
+maple
+matey
+mauve
+maxim
+maybe
+mealy
+meant
+meaty
+mecca
+medal
+media
+medic
+melee
+metal
+midge
+milky
+mimic
+mince
+minim
+minty
+mucky
+muddy
+mummy
+naive
+nanny
+natal
+naval
+navel
+needy
+newly
+niece
+ninja
+ninny
+nudge
+nutty
+paddy
+pagan
+paint
+panel
+panic
+papal
+patty
+payee
+peace
+pecan
+pedal
+penal
+pence
+penne
+penny
+petal
+petty
+picky
+piece
+piety
+piggy
+piney
+pinky
+pique
+pixel
+pixie
+pizza
+place
+plaid
+plain
+plait
+plane
+plank
+plant
+plate
+plaza
+plead
+pleat
+plied
+pluck
+plumb
+plume
+plump
+plunk
+pubic
+pudgy
+puffy
+pulpy
+pupal
+pupil
+puppy
+putty
+pygmy
+quack
+quail
+quake
+qualm
+queen
+quell
+queue
+quick
+quiet
+quill
+quilt
+quite
+tabby
+table
+tacit
+tacky
+taffy
+taint
+taken
+tally
+tangy
+tatty
+taunt
+tawny
+teddy
+tenet
+tepee
+tepid
+tibia
+tidal
+tilde
+timid
+titan
+title
+tubal
+tulip
+tulle
+tunic
+twang
+tweak
+tweed
+tweet
+twice
+twine
+twixt
+tying
+uncle
+uncut
+undid
+undue
+unfed
+unfit
+unify
+unite
+unity
+unlit
+unmet
+untie
+until
+unwed
+unzip
+utile
+vague
+valet
+valid
+value
+valve
+vapid
+vault
+vaunt
+vegan
+venue
+vigil
+villa
+vinyl
+vital
+vivid
+vixen
+vying
+wacky
+waive
+waltz
+waxen
+weave
+wedge
+weedy
+widen
+wield
+willy
+wimpy
+wince
+windy
+witty
+yield
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: e
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+e b 10
+length =  279
+0       aback
+19      adapt
+21      admin
+22      admit
+27      adult
+        ...  
+2229    waltz
+2269    willy
+2270    wimpy
+2273    windy
+2277    witty
+Name: Remaining Words, Length: 279, dtype: object
+Print each word from this list?! (y/n): y
+aback
+adapt
+admin
+admit
+adult
+affix
+again
+aging
+album
+alibi
+align
+allay
+amity
+amply
+annul
+antic
+anvil
+aping
+apply
+aptly
+attic
+audit
+aunty
+avail
+avian
+await
+awful
+axial
+badly
+baggy
+balmy
+banal
+batty
+bawdy
+biddy
+billy
+bitty
+black
+bland
+blank
+blimp
+blind
+blink
+blitz
+bluff
+blunt
+buddy
+buggy
+build
+built
+bulky
+bully
+bunny
+bylaw
+cabal
+cabby
+cabin
+cacti
+caddy
+canal
+candy
+canny
+caput
+catty
+caulk
+cavil
+civic
+civil
+clack
+claim
+clamp
+clang
+clank
+click
+cliff
+climb
+cling
+clink
+cluck
+clump
+clung
+cubic
+cumin
+cynic
+daddy
+daily
+dally
+dandy
+datum
+daunt
+digit
+dilly
+dimly
+dingy
+ditty
+dizzy
+dully
+dummy
+dumpy
+dying
+faint
+fancy
+fanny
+fatal
+fatty
+fault
+fauna
+fifty
+filly
+filmy
+final
+fizzy
+flack
+flail
+flaky
+flank
+flick
+fling
+flint
+fluff
+fluid
+flung
+flunk
+fully
+fungi
+funky
+funny
+fuzzy
+gaily
+gamma
+gamut
+gaudy
+gaunt
+gawky
+gayly
+giant
+giddy
+gland
+glint
+guava
+guild
+guilt
+gully
+gummy
+guppy
+icily
+icing
+idyll
+iliac
+imply
+inlay
+input
+jaunt
+jazzy
+jiffy
+juicy
+jumpy
+junta
+kappa
+kayak
+kinky
+kitty
+knack
+lanky
+lilac
+limit
+lipid
+livid
+llama
+lucid
+lucky
+lumpy
+lying
+macaw
+madam
+madly
+mafia
+magic
+magma
+mamma
+mammy
+manga
+mangy
+mania
+manic
+manly
+maxim
+milky
+mimic
+minim
+minty
+mucky
+muddy
+mummy
+nanny
+natal
+naval
+ninja
+ninny
+nutty
+paddy
+pagan
+paint
+panic
+papal
+patty
+picky
+piggy
+pinky
+pizza
+plaid
+plain
+plait
+plank
+plant
+plaza
+pluck
+plumb
+plump
+plunk
+pubic
+pudgy
+puffy
+pulpy
+pupal
+pupil
+puppy
+putty
+pygmy
+quack
+quail
+qualm
+quick
+quill
+quilt
+tabby
+tacit
+tacky
+taffy
+taint
+tally
+tangy
+tatty
+taunt
+tawny
+tibia
+tidal
+timid
+titan
+tubal
+tulip
+tunic
+twang
+twixt
+tying
+uncut
+undid
+unfit
+unify
+unity
+unlit
+until
+unzip
+valid
+vapid
+vault
+vaunt
+vigil
+villa
+vinyl
+vital
+vivid
+vying
+wacky
+waltz
+willy
+wimpy
+windy
+witty
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 0
+a y 0
+length =  124
+143     badly
+145     baggy
+148     balmy
+149     banal
+162     batty
+        ...  
+2189    vaunt
+2201    villa
+2210    vital
+2223    wacky
+2229    waltz
+Name: Remaining Words, Length: 124, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: d
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+d b 10
+length =  104
+145     baggy
+148     balmy
+149     banal
+162     batty
+204     black
+        ...  
+2189    vaunt
+2201    villa
+2210    vital
+2223    wacky
+2229    waltz
+Name: Remaining Words, Length: 104, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: u
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+u b 10
+length =  87
+145     baggy
+148     balmy
+149     banal
+162     batty
+204     black
+        ...  
+2137    twang
+2201    villa
+2210    vital
+2223    wacky
+2229    waltz
+Name: Remaining Words, Length: 87, dtype: object
+Print each word from this list?! (y/n): l
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: l
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 3
+l y 3
+length =  34
+148     balmy
+149     banal
+204     black
+208     blank
+313     bylaw
+314     cabal
+327     canal
+345     cavil
+395     clack
+396     claim
+397     clamp
+398     clang
+399     clank
+704     fatal
+739     final
+747     flack
+748     flail
+751     flaky
+753     flank
+1023    iliac
+1036    inlay
+1095    lanky
+1132    lilac
+1142    llama
+1289    natal
+1290    naval
+1370    papal
+1427    plain
+1428    plait
+1430    plank
+1431    plant
+1433    plaza
+2210    vital
+2229    waltz
+Name: Remaining Words, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: t
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 4
+t y 4
+length =  4
+704     fatal
+1289    natal
+2210    vital
+2229    waltz
+Name: Remaining Words, dtype: object
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+a b 10
+length =  1406
+beech
+beefy
+befit
+beget
+begin
+begun
+being
+belch
+belie
+belle
+belly
+below
+bench
+beret
+berry
+berth
+beset
+betel
+bevel
+bezel
+bible
+bicep
+biddy
+bigot
+bilge
+billy
+binge
+bingo
+biome
+birch
+birth
+bison
+bitty
+bleed
+bleep
+blend
+bless
+blimp
+blind
+blink
+bliss
+blitz
+block
+bloke
+blond
+blood
+bloom
+blown
+bluer
+bluff
+blunt
+blurb
+blurt
+blush
+bobby
+boney
+bongo
+bonus
+booby
+boost
+booth
+booty
+booze
+boozy
+borne
+bosom
+bossy
+botch
+bough
+boule
+bound
+bowel
+boxer
+breed
+bribe
+brick
+bride
+brief
+brine
+bring
+brink
+briny
+brisk
+broil
+broke
+brood
+brook
+broom
+broth
+brown
+brunt
+brush
+brute
+buddy
+budge
+buggy
+bugle
+build
+built
+bulge
+bulky
+bully
+bunch
+bunny
+burly
+burnt
+burst
+bused
+bushy
+butch
+butte
+buxom
+buyer
+cello
+check
+cheek
+cheer
+chess
+chest
+chick
+chide
+chief
+child
+chili
+chill
+chime
+chirp
+chock
+choir
+choke
+chord
+chore
+chose
+chuck
+chump
+chunk
+churn
+chute
+cider
+cinch
+civic
+civil
+cleft
+clerk
+click
+cliff
+climb
+cling
+clink
+clock
+clone
+close
+cloth
+cloud
+clout
+clove
+clown
+cluck
+clued
+clump
+clung
+colon
+color
+comet
+comfy
+comic
+conch
+condo
+conic
+copse
+corer
+corny
+couch
+cough
+could
+count
+coupe
+court
+coven
+cover
+covet
+covey
+cower
+coyly
+credo
+creed
+creek
+creep
+creme
+crepe
+crept
+cress
+crest
+crick
+cried
+crier
+crime
+crimp
+crisp
+crock
+crone
+crony
+crook
+cross
+croup
+crowd
+crown
+crude
+cruel
+crumb
+crump
+crush
+crust
+crypt
+cubic
+cumin
+curio
+curly
+curry
+curse
+curve
+curvy
+cutie
+cyber
+cycle
+cynic
+debit
+debug
+debut
+decor
+decoy
+decry
+defer
+deign
+deity
+delve
+demon
+demur
+denim
+dense
+depot
+depth
+derby
+deter
+detox
+deuce
+devil
+dicey
+digit
+dilly
+dimly
+diner
+dingo
+dingy
+diode
+dirge
+dirty
+disco
+ditch
+ditto
+ditty
+diver
+dizzy
+dodge
+dodgy
+doing
+dolly
+donor
+donut
+dopey
+doubt
+dough
+dowdy
+dowel
+downy
+dowry
+dozen
+dress
+dried
+drier
+drift
+drill
+drink
+drive
+droit
+droll
+drone
+drool
+droop
+dross
+drove
+drown
+druid
+drunk
+dryer
+dryly
+duchy
+dully
+dummy
+dumpy
+dunce
+dusky
+dusty
+dutch
+duvet
+dwell
+dwelt
+dying
+ebony
+edict
+edify
+eerie
+egret
+eight
+eject
+eking
+elbow
+elder
+elect
+elegy
+elfin
+elide
+elite
+elope
+elude
+embed
+ember
+emcee
+empty
+endow
+enemy
+enjoy
+ennui
+ensue
+enter
+entry
+envoy
+epoch
+epoxy
+equip
+erect
+erode
+error
+erupt
+ester
+ether
+ethic
+ethos
+etude
+event
+every
+evict
+evoke
+excel
+exert
+exile
+exist
+expel
+extol
+exult
+eying
+feign
+felon
+femme
+femur
+fence
+ferry
+fetch
+fetid
+fetus
+fever
+fewer
+fiber
+fibre
+ficus
+field
+fiend
+fiery
+fifth
+fifty
+fight
+filer
+filet
+filly
+filmy
+filth
+finch
+finer
+first
+fishy
+fixer
+fizzy
+fjord
+fleck
+fleet
+flesh
+flick
+flier
+fling
+flint
+flirt
+flock
+flood
+floor
+floss
+flour
+flout
+flown
+fluff
+fluid
+fluke
+flume
+flung
+flunk
+flush
+flute
+flyer
+focus
+foggy
+foist
+folio
+folly
+force
+forge
+forgo
+forte
+forth
+forty
+forum
+found
+foyer
+freed
+freer
+fresh
+fried
+frill
+frisk
+fritz
+frock
+frond
+front
+frost
+froth
+frown
+froze
+fruit
+fudge
+fugue
+fully
+fungi
+funky
+funny
+furor
+furry
+fussy
+fuzzy
+gecko
+geeky
+geese
+genie
+genre
+ghost
+ghoul
+giddy
+gipsy
+girly
+girth
+given
+giver
+glide
+glint
+globe
+gloom
+glory
+gloss
+glove
+glyph
+gnome
+godly
+going
+golem
+golly
+goner
+goody
+gooey
+goofy
+goose
+gorge
+gouge
+gourd
+greed
+green
+greet
+grief
+grill
+grime
+grimy
+grind
+gripe
+groin
+groom
+grope
+gross
+group
+grout
+grove
+growl
+grown
+gruel
+gruff
+grunt
+guess
+guest
+guide
+guild
+guile
+guilt
+guise
+gulch
+gully
+gumbo
+gummy
+guppy
+gusto
+gusty
+gypsy
+hedge
+hefty
+heist
+helix
+hello
+hence
+heron
+hilly
+hinge
+hippo
+hippy
+hitch
+hobby
+hoist
+holly
+homer
+honey
+honor
+horde
+horny
+horse
+hotel
+hotly
+hound
+house
+hovel
+hover
+howdy
+humid
+humor
+humph
+humus
+hunch
+hunky
+hurry
+husky
+hussy
+hutch
+hydro
+hymen
+hyper
+icily
+icing
+idiom
+idiot
+idler
+idyll
+igloo
+imbue
+impel
+imply
+inbox
+incur
+index
+inept
+inert
+infer
+ingot
+inlet
+inner
+input
+inter
+intro
+ionic
+irony
+islet
+issue
+itchy
+ivory
+jelly
+jerky
+jetty
+jewel
+jiffy
+joint
+joist
+joker
+jolly
+joust
+judge
+juice
+juicy
+jumbo
+jumpy
+junto
+juror
+kinky
+kiosk
+kitty
+kneed
+kneel
+knelt
+knife
+knock
+knoll
+known
+krill
+ledge
+leech
+leery
+lefty
+leggy
+lemon
+lemur
+leper
+level
+lever
+libel
+liege
+light
+liken
+limbo
+limit
+linen
+liner
+lingo
+lipid
+lithe
+liver
+livid
+lobby
+locus
+lodge
+lofty
+logic
+login
+loopy
+loose
+lorry
+loser
+louse
+lousy
+lover
+lower
+lowly
+lucid
+lucky
+lumen
+lumpy
+lunch
+lunge
+lupus
+lurch
+lurid
+lusty
+lying
+lymph
+lynch
+lyric
+medic
+melee
+melon
+mercy
+merge
+merit
+merry
+meter
+metro
+micro
+midge
+midst
+might
+milky
+mimic
+mince
+miner
+minim
+minor
+minty
+minus
+mirth
+miser
+missy
+model
+modem
+mogul
+moist
+moldy
+money
+month
+moody
+moose
+moron
+morph
+mossy
+motel
+motif
+motor
+motto
+moult
+mound
+mount
+mourn
+mouse
+mouth
+mover
+movie
+mower
+mucky
+mucus
+muddy
+mulch
+mummy
+munch
+murky
+mushy
+music
+musky
+musty
+myrrh
+needy
+neigh
+nerdy
+nerve
+never
+newer
+newly
+nicer
+niche
+niece
+night
+ninny
+ninth
+noble
+nobly
+noise
+noisy
+noose
+north
+nosey
+notch
+novel
+nudge
+nurse
+nutty
+nylon
+nymph
+obese
+occur
+octet
+odder
+oddly
+offer
+often
+olden
+older
+olive
+ombre
+onion
+onset
+opine
+opium
+optic
+orbit
+order
+other
+otter
+ought
+ounce
+outdo
+outer
+outgo
+overt
+ovine
+ovoid
+owing
+owner
+oxide
+ozone
+pence
+penne
+penny
+perch
+peril
+perky
+pesky
+pesto
+petty
+phone
+phony
+photo
+picky
+piece
+piety
+piggy
+pilot
+pinch
+piney
+pinky
+pinto
+piper
+pique
+pitch
+pithy
+pivot
+pixel
+pixie
+plied
+plier
+pluck
+plumb
+plume
+plump
+plunk
+plush
+poesy
+point
+poise
+poker
+polyp
+pooch
+poppy
+porch
+poser
+posit
+posse
+pouch
+pound
+pouty
+power
+preen
+press
+price
+prick
+pride
+pried
+prime
+primo
+print
+prior
+prism
+privy
+prize
+probe
+prone
+prong
+proof
+prose
+proud
+prove
+prowl
+proxy
+prude
+prune
+pubic
+pudgy
+puffy
+pulpy
+pulse
+punch
+pupil
+puppy
+puree
+purer
+purge
+purse
+pushy
+putty
+pygmy
+queen
+queer
+quell
+query
+quest
+queue
+quick
+quiet
+quill
+quilt
+quirk
+quite
+quote
+quoth
+rebel
+rebus
+rebut
+recur
+recut
+reedy
+refer
+refit
+reign
+relic
+remit
+renew
+repel
+reply
+rerun
+reset
+resin
+retch
+retro
+retry
+reuse
+revel
+revue
+rhino
+rhyme
+rider
+ridge
+rifle
+right
+rigid
+rigor
+rinse
+ripen
+riper
+risen
+riser
+risky
+river
+rivet
+robin
+robot
+rocky
+rodeo
+roger
+rogue
+roomy
+roost
+rotor
+rouge
+rough
+round
+rouse
+route
+rover
+rowdy
+rower
+ruddy
+ruder
+rugby
+ruler
+rumor
+rupee
+rusty
+scene
+scent
+scion
+scoff
+scold
+scone
+scoop
+scope
+score
+scorn
+scour
+scout
+scowl
+scree
+screw
+scrub
+scrum
+seedy
+segue
+seize
+semen
+sense
+serif
+serum
+serve
+setup
+seven
+sever
+sewer
+sheen
+sheep
+sheer
+sheet
+sheik
+shelf
+shell
+shied
+shift
+shine
+shiny
+shire
+shirk
+shirt
+shock
+shone
+shook
+shoot
+shore
+shorn
+short
+shout
+shove
+shown
+showy
+shrew
+shrub
+shrug
+shuck
+shunt
+shush
+shyly
+siege
+sieve
+sight
+silky
+silly
+since
+sinew
+singe
+siren
+sissy
+sixth
+sixty
+skier
+skiff
+skill
+skimp
+skirt
+skulk
+skull
+skunk
+sleek
+sleep
+sleet
+slept
+slice
+slick
+slide
+slime
+slimy
+sling
+slink
+sloop
+slope
+slosh
+sloth
+slump
+slung
+slunk
+slurp
+slush
+slyly
+smell
+smelt
+smile
+smirk
+smite
+smith
+smock
+smoke
+smoky
+smote
+sneer
+snide
+sniff
+snipe
+snoop
+snore
+snort
+snout
+snowy
+snuck
+snuff
+sober
+soggy
+solid
+solve
+sonic
+sooth
+sooty
+sorry
+sound
+south
+sower
+speck
+speed
+spell
+spelt
+spend
+spent
+sperm
+spice
+spicy
+spied
+spiel
+spike
+spiky
+spill
+spilt
+spine
+spiny
+spire
+spite
+split
+spoil
+spoke
+spoof
+spook
+spool
+spoon
+spore
+sport
+spout
+spree
+sprig
+spunk
+spurn
+spurt
+squib
+steed
+steel
+steep
+steer
+stein
+stern
+stick
+stiff
+still
+stilt
+sting
+stink
+stint
+stock
+stoic
+stoke
+stole
+stomp
+stone
+stony
+stood
+stool
+stoop
+store
+stork
+storm
+story
+stout
+stove
+strip
+strut
+stuck
+study
+stuff
+stump
+stung
+stunk
+stunt
+style
+suing
+suite
+sulky
+sully
+sunny
+super
+surer
+surge
+surly
+sushi
+sweep
+sweet
+swell
+swept
+swift
+swill
+swine
+swing
+swirl
+swish
+swoon
+swoop
+sword
+swore
+sworn
+swung
+synod
+syrup
+teddy
+teeth
+tempo
+tenet
+tenor
+tense
+tenth
+tepee
+tepid
+terse
+testy
+theft
+their
+theme
+there
+these
+thick
+thief
+thigh
+thing
+think
+third
+thong
+thorn
+those
+three
+threw
+throb
+throw
+thrum
+thumb
+thump
+thyme
+tiger
+tight
+tilde
+timer
+timid
+tipsy
+tithe
+title
+toddy
+token
+tonic
+tooth
+topic
+torch
+torso
+torus
+totem
+touch
+tough
+towel
+tower
+toxic
+toxin
+trend
+tribe
+trice
+trick
+tried
+tripe
+trite
+troll
+troop
+trope
+trout
+trove
+truce
+truck
+truer
+truly
+trump
+trunk
+truss
+trust
+truth
+tryst
+tuber
+tulip
+tulle
+tumor
+tunic
+turbo
+tutor
+tweed
+tweet
+twice
+twine
+twirl
+twist
+twixt
+tying
+udder
+ulcer
+uncle
+uncut
+under
+undid
+undue
+unfed
+unfit
+unify
+union
+unite
+unity
+unlit
+unmet
+unset
+untie
+until
+unwed
+unzip
+upper
+upset
+urine
+usher
+using
+usurp
+utile
+utter
+venom
+venue
+verge
+verse
+verso
+verve
+video
+vigil
+vigor
+vinyl
+viper
+virus
+visit
+visor
+vivid
+vixen
+vogue
+voice
+vomit
+voter
+vouch
+vowel
+vying
+wedge
+weedy
+weigh
+weird
+welch
+welsh
+wench
+wheel
+whelp
+where
+which
+whiff
+while
+whine
+whiny
+whirl
+whisk
+white
+whole
+whoop
+whose
+widen
+wider
+widow
+width
+wield
+wight
+willy
+wimpy
+wince
+winch
+windy
+wiser
+wispy
+witch
+witty
+woken
+women
+woody
+wooer
+wooly
+woozy
+wordy
+world
+worry
+worse
+worst
+worth
+would
+wound
+woven
+wreck
+wrest
+wring
+wrist
+write
+wrong
+wrote
+wrung
+wryly
+yield
+young
+youth
+zesty
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+a b 10
+length =  1406
+beech
+beefy
+befit
+beget
+begin
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 0
+a y 0
+length =  768
+bacon
+badge
+badly
+bagel
+baggy
+.
+.
+.
+.
+.
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 2
+The inputted character is:  a
+Its color returned by the game is:  y
+Its inputted position is:  2
+length of updated list =  602
+abbey
+abbot
+abhor
+abide
+abled
+.
+.
+.
+.
+.
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ ord('a')
+-bash: syntax error near unexpected token `'a''
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python
+Python 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ord("a")
+97
+>>> ord("z")
+122
+>>> quit
+Use quit() or Ctrl-D (i.e. EOF) to exit
+>>> 
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+{'z': 35}
+Enter a character you have already inputted in the game: f
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 1
+The inputted character is:  f
+Its color returned by the game is:  g
+Its inputted position is:  1
+length of updated list =  8
+affix
+afire
+afoot
+afoul
+after
+.
+.
+.
+.
+.
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+{'z': 35}
+Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 44, in <module>
+    character, color, position = get_input()
+  File "test.py", line 4, in get_input
+    character = input("Enter a character you have already inputted in the game: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+{'a': 909, 'b': 267, 'c': 448, 'd': 370, 'e': 1056, 'f': 207, 'g': 300, 'h': 379, 'i': 647, 'j': 27, 'k': 202, 'l': 648, 'm': 298, 'n': 550, 'o': 673, 'p': 346, 'q': 29, 'r': 837, 's': 618, 't': 667, 'u': 457, 'v': 149, 'w': 194, 'x': 37, 'y': 417, 'z': 35}
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 5
+Enter the position of this character (0 to 4): 4
+The inputted character is:  a
+Its color returned by the game is:  g
+Its inputted position is:  4
+length of updated list =  64
+agora
+alpha
+aorta
+apnea
+arena
+.
+.
+.
+.
+.
+Print each word from this list?! (y/n): ^CTraceback (most recent call last):
+  File "test.py", line 54, in <module>
+    print(".\n.\n.\n.\n.")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+{'a': 979, 'b': 281, 'c': 477, 'd': 393, 'e': 1233, 'f': 230, 'g': 311, 'h': 389, 'i': 671, 'j': 27, 'k': 210, 'l': 719, 'm': 316, 'n': 575, 'o': 754, 'p': 367, 'q': 29, 'r': 899, 's': 669, 't': 729, 'u': 467, 'v': 153, 'w': 195, 'x': 37, 'y': 425, 'z': 40}
+Enter a character you have already inputted in the game: t
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  t
+Its color returned by the game is:  b
+length of updated list =  1648
+aback
+abase
+abbey
+abhor
+abide
+.
+.
+.
+.
+.
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+The length of the list of all possible words is: 2315
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+{'a': 979, 'b': 281, 'c': 477, 'd': 393, 'e': 1233, 'f': 230, 'g': 311, 'h': 389, 'i': 671, 'j': 27, 'k': 210, 'l': 719, 'm': 316, 'n': 575, 'o': 754, 'p': 367, 'q': 29, 'r': 899, 's': 669, 't': 729, 'u': 467, 'v': 153, 'w': 195, 'x': 37, 'y': 425, 'z': 40}
+Enter a character you have already inputted in the game: t
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  t
+Its color returned by the game is:  b
+length of updated list =  1648
+aback
+abase
+abbey
+abhor
+abide
+.
+.
+.
+.
+.
+{'a': 710, 'b': 223, 'c': 380, 'd': 330, 'e': 913, 'f': 167, 'g': 260, 'h': 249, 'i': 473, 'j': 19, 'k': 181, 'l': 589, 'm': 261, 'n': 455, 'o': 551, 'p': 288, 'q': 20, 'r': 689, 's': 465, 't': 0, 'u': 328, 'v': 133, 'w': 153, 'x': 24, 'y': 344, 'z': 35}
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: e
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 1
+The inputted character is:  e
+Its color returned by the game is:  y
+Its inputted position is:  1
+length of updated list =  605
+abase
+abbey
+abide
+abled
+abode
+.
+.
+.
+.
+.
+{'a': 221, 'b': 75, 'c': 105, 'd': 120, 'e': 671, 'f': 50, 'g': 97, 'h': 68, 'i': 160, 'j': 4, 'k': 49, 'l': 179, 'm': 71, 'n': 145, 'o': 165, 'p': 112, 'q': 9, 'r': 282, 's': 166, 't': 0, 'u': 93, 'v': 62, 'w': 51, 'x': 13, 'y': 42, 'z': 15}
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  a
+Its color returned by the game is:  b
+length of updated list =  394
+bible
+bicep
+bilge
+binge
+biome
+.
+.
+.
+.
+.
+{'a': 0, 'b': 45, 'c': 73, 'd': 90, 'e': 452, 'f': 36, 'g': 55, 'h': 47, 'i': 141, 'j': 4, 'k': 26, 'l': 107, 'm': 40, 'n': 102, 'o': 151, 'p': 80, 'q': 7, 'r': 198, 's': 116, 't': 0, 'u': 77, 'v': 37, 'w': 39, 'x': 11, 'y': 31, 'z': 5}
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: r
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 3
+The inputted character is:  r
+Its color returned by the game is:  y
+Its inputted position is:  3
+length of updated list =  163
+bluer
+borne
+boxer
+breed
+bribe
+.
+.
+.
+.
+.
+{'a': 0, 'b': 16, 'c': 28, 'd': 40, 'e': 185, 'f': 20, 'g': 20, 'h': 11, 'i': 54, 'j': 1, 'k': 6, 'l': 18, 'm': 11, 'n': 26, 'o': 55, 'p': 36, 'q': 1, 'r': 182, 's': 35, 't': 0, 'u': 30, 'v': 15, 'w': 14, 'x': 2, 'y': 7, 'z': 2}
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: y
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  y
+Its color returned by the game is:  b
+length of updated list =  156
+bluer
+borne
+boxer
+breed
+bribe
+.
+.
+.
+.
+.
+{'a': 0, 'b': 14, 'c': 27, 'd': 39, 'e': 178, 'f': 18, 'g': 20, 'h': 9, 'i': 54, 'j': 1, 'k': 6, 'l': 17, 'm': 10, 'n': 26, 'o': 54, 'p': 35, 'q': 1, 'r': 174, 's': 35, 't': 0, 'u': 29, 'v': 15, 'w': 14, 'x': 2, 'y': 0, 'z': 2}
+Print each word from this list?! (y/n): y
+bluer
+borne
+boxer
+breed
+bribe
+bride
+brief
+brine
+broke
+cheer
+cider
+corer
+cover
+cower
+credo
+creed
+creek
+creep
+creme
+crepe
+cress
+cried
+crier
+crime
+crone
+crude
+cruel
+curse
+curve
+diner
+dirge
+diver
+dress
+dried
+drier
+drive
+drone
+drove
+elder
+ember
+erode
+error
+fiber
+filer
+finer
+fixer
+flier
+force
+forge
+freed
+freer
+fresh
+fried
+froze
+giver
+goner
+gorge
+greed
+green
+grief
+grime
+gripe
+grope
+grove
+gruel
+homer
+horde
+horse
+hover
+idler
+infer
+inner
+joker
+liner
+liver
+loser
+lover
+lower
+miner
+miser
+mover
+mower
+nicer
+nurse
+odder
+offer
+older
+order
+owner
+piper
+plier
+poker
+poser
+power
+preen
+press
+price
+pride
+pried
+prime
+prize
+probe
+prone
+prose
+prove
+prude
+prune
+puree
+purer
+purge
+purse
+queer
+rider
+ridge
+rifle
+rinse
+ripen
+riper
+risen
+riser
+river
+rodeo
+roger
+rogue
+rouge
+rouse
+rover
+rower
+ruder
+ruler
+rupee
+scree
+screw
+sheer
+shrew
+siren
+skier
+sneer
+sober
+sower
+spree
+super
+surer
+surge
+udder
+ulcer
+under
+upper
+urine
+usher
+viper
+wider
+wiser
+wooer
+worse
+wreck
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: h
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  h
+Its color returned by the game is:  b
+length of updated list =  147
+bluer
+borne
+boxer
+breed
+bribe
+.
+.
+.
+.
+.
+{'a': 0, 'b': 14, 'c': 26, 'd': 38, 'e': 167, 'f': 17, 'g': 20, 'h': 0, 'i': 54, 'j': 1, 'k': 6, 'l': 17, 'm': 9, 'n': 26, 'o': 50, 'p': 35, 'q': 1, 'r': 165, 's': 30, 't': 0, 'u': 28, 'v': 14, 'w': 13, 'x': 2, 'y': 0, 'z': 2}
+Print each word from this list?! (y/n): y
+bluer
+borne
+boxer
+breed
+bribe
+bride
+brief
+brine
+broke
+cider
+corer
+cover
+cower
+credo
+creed
+creek
+creep
+creme
+crepe
+cress
+cried
+crier
+crime
+crone
+crude
+cruel
+curse
+curve
+diner
+dirge
+diver
+dress
+dried
+drier
+drive
+drone
+drove
+elder
+ember
+erode
+error
+fiber
+filer
+finer
+fixer
+flier
+force
+forge
+freed
+freer
+fried
+froze
+giver
+goner
+gorge
+greed
+green
+grief
+grime
+gripe
+grope
+grove
+gruel
+idler
+infer
+inner
+joker
+liner
+liver
+loser
+lover
+lower
+miner
+miser
+mover
+mower
+nicer
+nurse
+odder
+offer
+older
+order
+owner
+piper
+plier
+poker
+poser
+power
+preen
+press
+price
+pride
+pried
+prime
+prize
+probe
+prone
+prose
+prove
+prude
+prune
+puree
+purer
+purge
+purse
+queer
+rider
+ridge
+rifle
+rinse
+ripen
+riper
+risen
+riser
+river
+rodeo
+roger
+rogue
+rouge
+rouse
+rover
+rower
+ruder
+ruler
+rupee
+scree
+screw
+siren
+skier
+sneer
+sober
+sower
+spree
+super
+surer
+surge
+udder
+ulcer
+under
+upper
+urine
+viper
+wider
+wiser
+wooer
+worse
+wreck
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: o
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 1
+The inputted character is:  o
+Its color returned by the game is:  y
+Its inputted position is:  1
+length of updated list =  19
+broke
+credo
+crone
+drone
+drove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 2, 'c': 2, 'd': 8, 'e': 20, 'f': 3, 'g': 2, 'h': 0, 'i': 0, 'j': 0, 'k': 1, 'l': 1, 'm': 0, 'n': 4, 'o': 19, 'p': 5, 'q': 0, 'r': 22, 's': 1, 't': 0, 'u': 0, 'v': 3, 'w': 1, 'x': 0, 'y': 0, 'z': 1}
+Print each word from this list?! (y/n): y
+broke
+credo
+crone
+drone
+drove
+erode
+error
+froze
+grope
+grove
+odder
+offer
+older
+order
+owner
+probe
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: r
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 2
+The inputted character is:  r
+Its color returned by the game is:  y
+Its inputted position is:  2
+length of updated list =  18
+broke
+credo
+crone
+drone
+drove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 2, 'c': 2, 'd': 8, 'e': 19, 'f': 3, 'g': 2, 'h': 0, 'i': 0, 'j': 0, 'k': 1, 'l': 1, 'm': 0, 'n': 4, 'o': 18, 'p': 5, 'q': 0, 'r': 19, 's': 1, 't': 0, 'u': 0, 'v': 3, 'w': 1, 'x': 0, 'y': 0, 'z': 1}
+Print each word from this list?! (y/n): y
+broke
+credo
+crone
+drone
+drove
+erode
+froze
+grope
+grove
+odder
+offer
+older
+order
+owner
+probe
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: d
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  d
+Its color returned by the game is:  b
+length of updated list =  11
+broke
+crone
+froze
+grope
+grove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 2, 'c': 1, 'd': 0, 'e': 11, 'f': 3, 'g': 2, 'h': 0, 'i': 0, 'j': 0, 'k': 1, 'l': 0, 'm': 0, 'n': 3, 'o': 11, 'p': 5, 'q': 0, 'r': 11, 's': 1, 't': 0, 'u': 0, 'v': 2, 'w': 1, 'x': 0, 'y': 0, 'z': 1}
+Print each word from this list?! (y/n): y
+broke
+crone
+froze
+grope
+grove
+offer
+owner
+probe
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: e
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 4
+The inputted character is:  e
+Its color returned by the game is:  g
+Its inputted position is:  4
+length of updated list =  9
+broke
+crone
+froze
+grope
+grove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 2, 'c': 1, 'd': 0, 'e': 9, 'f': 1, 'g': 2, 'h': 0, 'i': 0, 'j': 0, 'k': 1, 'l': 0, 'm': 0, 'n': 2, 'o': 9, 'p': 5, 'q': 0, 'r': 9, 's': 1, 't': 0, 'u': 0, 'v': 2, 'w': 0, 'x': 0, 'y': 0, 'z': 1}
+Print each word from this list?! (y/n): y
+broke
+crone
+froze
+grope
+grove
+probe
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: p
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 0
+The inputted character is:  p
+Its color returned by the game is:  g
+Its inputted position is:  0
+length of updated list =  4
+probe
+prone
+prose
+prove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 1, 'c': 0, 'd': 0, 'e': 4, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 1, 'o': 4, 'p': 4, 'q': 0, 'r': 4, 's': 1, 't': 0, 'u': 0, 'v': 1, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
+Print each word from this list?! (y/n): y
+probe
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: r
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 1
+The inputted character is:  r
+Its color returned by the game is:  g
+Its inputted position is:  1
+length of updated list =  4
+probe
+prone
+prose
+prove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 1, 'c': 0, 'd': 0, 'e': 4, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 1, 'o': 4, 'p': 4, 'q': 0, 'r': 4, 's': 1, 't': 0, 'u': 0, 'v': 1, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
+Print each word from this list?! (y/n): y
+probe
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: o
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 2
+The inputted character is:  o
+Its color returned by the game is:  g
+Its inputted position is:  2
+length of updated list =  4
+probe
+prone
+prose
+prove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 1, 'c': 0, 'd': 0, 'e': 4, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 1, 'o': 4, 'p': 4, 'q': 0, 'r': 4, 's': 1, 't': 0, 'u': 0, 'v': 1, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
+Print each word from this list?! (y/n): y
+probe
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: b
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  b
+Its color returned by the game is:  b
+length of updated list =  3
+prone
+prose
+prove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 3, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 1, 'o': 3, 'p': 3, 'q': 0, 'r': 3, 's': 1, 't': 0, 'u': 0, 'v': 1, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
+Print each word from this list?! (y/n): y
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: e
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 4
+The inputted character is:  e
+Its color returned by the game is:  g
+Its inputted position is:  4
+length of updated list =  3
+prone
+prose
+prove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 3, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 1, 'o': 3, 'p': 3, 'q': 0, 'r': 3, 's': 1, 't': 0, 'u': 0, 'v': 1, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
+Print each word from this list?! (y/n): y
+prone
+prose
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: s
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  s
+Its color returned by the game is:  b
+length of updated list =  2
+prone
+prove
+.
+.
+.
+.
+.
+{'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 2, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 1, 'o': 2, 'p': 2, 'q': 0, 'r': 2, 's': 0, 't': 0, 'u': 0, 'v': 1, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
+Print each word from this list?! (y/n): y
+prone
+prove
+Continue? 1 for Yes, 0 to Exit!: 1
+Enter a character you have already inputted in the game: n
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 3
+The inputted character is:  n
+Its color returned by the game is:  g
+Its inputted position is:  3
+length of updated list =  1
+prone
+.
+.
+.
+.
+.
+{'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 1, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 1, 'o': 1, 'p': 1, 'q': 0, 'r': 1, 's': 0, 't': 0, 'u': 0, 'v': 0, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
+Print each word from this list?! (y/n): y
+prone
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): ^CTraceback (most recent call last):
+  File "test.py", line 63, in <module>
+    display_initial_word_list(words)
+  File "test.py", line 25, in display_initial_word_list
+    print_all_list_elements(words)
+  File "test.py", line 12, in print_all_list_elements
+    p = input("\nPrint each word from this list?! (y/n): ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Print each word from this list?! (y/n): n
+
+Print each word from this list?! (y/n): ^CTraceback (most recent call last):
+  File "test.py", line 63, in <module>
+    display_initial_word_list(words)
+  File "test.py", line 25, in display_initial_word_list
+    print_all_list_elements(words)
+  File "test.py", line 12, in print_all_list_elements
+    p = input("\nPrint each word from this list?! (y/n): ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): y
+aback
+abase
+abate
+abbey
+abbot
+abhor
+abide
+abled
+abode
+abort
+about
+above
+abuse
+abyss
+acorn
+acrid
+actor
+acute
+adage
+adapt
+adept
+admin
+admit
+adobe
+adopt
+adore
+adorn
+adult
+affix
+afire
+afoot
+afoul
+after
+again
+agape
+agate
+agent
+agile
+aging
+aglow
+agony
+agora
+agree
+ahead
+aider
+aisle
+alarm
+album
+alert
+algae
+alibi
+alien
+align
+alike
+alive
+allay
+alley
+allot
+allow
+alloy
+aloft
+alone
+along
+aloof
+aloud
+alpha
+altar
+alter
+amass
+amaze
+amber
+amble
+amend
+amiss
+amity
+among
+ample
+amply
+amuse
+angel
+anger
+angle
+angry
+angst
+anime
+ankle
+annex
+annoy
+annul
+anode
+antic
+anvil
+aorta
+apart
+aphid
+aping
+apnea
+apple
+apply
+apron
+aptly
+arbor
+ardor
+arena
+argue
+arise
+armor
+aroma
+arose
+array
+arrow
+arson
+artsy
+ascot
+ashen
+aside
+askew
+assay
+asset
+atoll
+atone
+attic
+audio
+audit
+augur
+aunty
+avail
+avert
+avian
+avoid
+await
+awake
+award
+aware
+awash
+awful
+awoke
+axial
+axiom
+axion
+azure
+bacon
+badge
+badly
+bagel
+baggy
+baker
+baler
+balmy
+banal
+banjo
+barge
+baron
+basal
+basic
+basil
+basin
+basis
+baste
+batch
+bathe
+baton
+batty
+bawdy
+bayou
+beach
+beady
+beard
+beast
+beech
+beefy
+befit
+began
+begat
+beget
+begin
+begun
+being
+belch
+belie
+belle
+belly
+below
+bench
+beret
+berry
+berth
+beset
+betel
+bevel
+bezel
+bible
+bicep
+biddy
+bigot
+bilge
+billy
+binge
+bingo
+biome
+birch
+birth
+bison
+bitty
+black
+blade
+blame
+bland
+blank
+blare
+blast
+blaze
+bleak
+bleat
+bleed
+bleep
+blend
+bless
+blimp
+blind
+blink
+bliss
+blitz
+bloat
+block
+bloke
+blond
+blood
+bloom
+blown
+bluer
+bluff
+blunt
+blurb
+blurt
+blush
+board
+boast
+bobby
+boney
+bongo
+bonus
+booby
+boost
+booth
+booty
+booze
+boozy
+borax
+borne
+bosom
+bossy
+botch
+bough
+boule
+bound
+bowel
+boxer
+brace
+braid
+brain
+brake
+brand
+brash
+brass
+brave
+bravo
+brawl
+brawn
+bread
+break
+breed
+briar
+bribe
+brick
+bride
+brief
+brine
+bring
+brink
+briny
+brisk
+broad
+broil
+broke
+brood
+brook
+broom
+broth
+brown
+brunt
+brush
+brute
+buddy
+budge
+buggy
+bugle
+build
+built
+bulge
+bulky
+bully
+bunch
+bunny
+burly
+burnt
+burst
+bused
+bushy
+butch
+butte
+buxom
+buyer
+bylaw
+cabal
+cabby
+cabin
+cable
+cacao
+cache
+cacti
+caddy
+cadet
+cagey
+cairn
+camel
+cameo
+canal
+candy
+canny
+canoe
+canon
+caper
+caput
+carat
+cargo
+carol
+carry
+carve
+caste
+catch
+cater
+catty
+caulk
+cause
+cavil
+cease
+cedar
+cello
+chafe
+chaff
+chain
+chair
+chalk
+champ
+chant
+chaos
+chard
+charm
+chart
+chase
+chasm
+cheap
+cheat
+check
+cheek
+cheer
+chess
+chest
+chick
+chide
+chief
+child
+chili
+chill
+chime
+china
+chirp
+chock
+choir
+choke
+chord
+chore
+chose
+chuck
+chump
+chunk
+churn
+chute
+cider
+cigar
+cinch
+circa
+civic
+civil
+clack
+claim
+clamp
+clang
+clank
+clash
+clasp
+class
+clean
+clear
+cleat
+cleft
+clerk
+click
+cliff
+climb
+cling
+clink
+cloak
+clock
+clone
+close
+cloth
+cloud
+clout
+clove
+clown
+cluck
+clued
+clump
+clung
+coach
+coast
+cobra
+cocoa
+colon
+color
+comet
+comfy
+comic
+comma
+conch
+condo
+conic
+copse
+coral
+corer
+corny
+couch
+cough
+could
+count
+coupe
+court
+coven
+cover
+covet
+covey
+cower
+coyly
+crack
+craft
+cramp
+crane
+crank
+crash
+crass
+crate
+crave
+crawl
+craze
+crazy
+creak
+cream
+credo
+creed
+creek
+creep
+creme
+crepe
+crept
+cress
+crest
+crick
+cried
+crier
+crime
+crimp
+crisp
+croak
+crock
+crone
+crony
+crook
+cross
+croup
+crowd
+crown
+crude
+cruel
+crumb
+crump
+crush
+crust
+crypt
+cubic
+cumin
+curio
+curly
+curry
+curse
+curve
+curvy
+cutie
+cyber
+cycle
+cynic
+daddy
+daily
+dairy
+daisy
+dally
+dance
+dandy
+datum
+daunt
+dealt
+death
+debar
+debit
+debug
+debut
+decal
+decay
+decor
+decoy
+decry
+defer
+deign
+deity
+delay
+delta
+delve
+demon
+demur
+denim
+dense
+depot
+depth
+derby
+deter
+detox
+deuce
+devil
+diary
+dicey
+digit
+dilly
+dimly
+diner
+dingo
+dingy
+diode
+dirge
+dirty
+disco
+ditch
+ditto
+ditty
+diver
+dizzy
+dodge
+dodgy
+dogma
+doing
+dolly
+donor
+donut
+dopey
+doubt
+dough
+dowdy
+dowel
+downy
+dowry
+dozen
+draft
+drain
+drake
+drama
+drank
+drape
+drawl
+drawn
+dread
+dream
+dress
+dried
+drier
+drift
+drill
+drink
+drive
+droit
+droll
+drone
+drool
+droop
+dross
+drove
+drown
+druid
+drunk
+dryer
+dryly
+duchy
+dully
+dummy
+dumpy
+dunce
+dusky
+dusty
+dutch
+duvet
+dwarf
+dwell
+dwelt
+dying
+eager
+eagle
+early
+earth
+easel
+eaten
+eater
+ebony
+eclat
+edict
+edify
+eerie
+egret
+eight
+eject
+eking
+elate
+elbow
+elder
+elect
+elegy
+elfin
+elide
+elite
+elope
+elude
+email
+embed
+ember
+emcee
+empty
+enact
+endow
+enema
+enemy
+enjoy
+ennui
+ensue
+enter
+entry
+envoy
+epoch
+epoxy
+equal
+equip
+erase
+erect
+erode
+error
+erupt
+essay
+ester
+ether
+ethic
+ethos
+etude
+evade
+event
+every
+evict
+evoke
+exact
+exalt
+excel
+exert
+exile
+exist
+expel
+extol
+extra
+exult
+eying
+fable
+facet
+faint
+fairy
+faith
+false
+fancy
+fanny
+farce
+fatal
+fatty
+fault
+fauna
+favor
+feast
+fecal
+feign
+fella
+felon
+femme
+femur
+fence
+feral
+ferry
+fetal
+fetch
+fetid
+fetus
+fever
+fewer
+fiber
+fibre
+ficus
+field
+fiend
+fiery
+fifth
+fifty
+fight
+filer
+filet
+filly
+filmy
+filth
+final
+finch
+finer
+first
+fishy
+fixer
+fizzy
+fjord
+flack
+flail
+flair
+flake
+flaky
+flame
+flank
+flare
+flash
+flask
+fleck
+fleet
+flesh
+flick
+flier
+fling
+flint
+flirt
+float
+flock
+flood
+floor
+flora
+floss
+flour
+flout
+flown
+fluff
+fluid
+fluke
+flume
+flung
+flunk
+flush
+flute
+flyer
+foamy
+focal
+focus
+foggy
+foist
+folio
+folly
+foray
+force
+forge
+forgo
+forte
+forth
+forty
+forum
+found
+foyer
+frail
+frame
+frank
+fraud
+freak
+freed
+freer
+fresh
+friar
+fried
+frill
+frisk
+fritz
+frock
+frond
+front
+frost
+froth
+frown
+froze
+fruit
+fudge
+fugue
+fully
+fungi
+funky
+funny
+furor
+furry
+fussy
+fuzzy
+gaffe
+gaily
+gamer
+gamma
+gamut
+gassy
+gaudy
+gauge
+gaunt
+gauze
+gavel
+gawky
+gayer
+gayly
+gazer
+gecko
+geeky
+geese
+genie
+genre
+ghost
+ghoul
+giant
+giddy
+gipsy
+girly
+girth
+given
+giver
+glade
+gland
+glare
+glass
+glaze
+gleam
+glean
+glide
+glint
+gloat
+globe
+gloom
+glory
+gloss
+glove
+glyph
+gnash
+gnome
+godly
+going
+golem
+golly
+gonad
+goner
+goody
+gooey
+goofy
+goose
+gorge
+gouge
+gourd
+grace
+grade
+graft
+grail
+grain
+grand
+grant
+grape
+graph
+grasp
+grass
+grate
+grave
+gravy
+graze
+great
+greed
+green
+greet
+grief
+grill
+grime
+grimy
+grind
+gripe
+groan
+groin
+groom
+grope
+gross
+group
+grout
+grove
+growl
+grown
+gruel
+gruff
+grunt
+guard
+guava
+guess
+guest
+guide
+guild
+guile
+guilt
+guise
+gulch
+gully
+gumbo
+gummy
+guppy
+gusto
+gusty
+gypsy
+habit
+hairy
+halve
+handy
+happy
+hardy
+harem
+harpy
+harry
+harsh
+haste
+hasty
+hatch
+hater
+haunt
+haute
+haven
+havoc
+hazel
+heady
+heard
+heart
+heath
+heave
+heavy
+hedge
+hefty
+heist
+helix
+hello
+hence
+heron
+hilly
+hinge
+hippo
+hippy
+hitch
+hoard
+hobby
+hoist
+holly
+homer
+honey
+honor
+horde
+horny
+horse
+hotel
+hotly
+hound
+house
+hovel
+hover
+howdy
+human
+humid
+humor
+humph
+humus
+hunch
+hunky
+hurry
+husky
+hussy
+hutch
+hydro
+hyena
+hymen
+hyper
+icily
+icing
+ideal
+idiom
+idiot
+idler
+idyll
+igloo
+iliac
+image
+imbue
+impel
+imply
+inane
+inbox
+incur
+index
+inept
+inert
+infer
+ingot
+inlay
+inlet
+inner
+input
+inter
+intro
+ionic
+irate
+irony
+islet
+issue
+itchy
+ivory
+jaunt
+jazzy
+jelly
+jerky
+jetty
+jewel
+jiffy
+joint
+joist
+joker
+jolly
+joust
+judge
+juice
+juicy
+jumbo
+jumpy
+junta
+junto
+juror
+kappa
+karma
+kayak
+kebab
+khaki
+kinky
+kiosk
+kitty
+knack
+knave
+knead
+kneed
+kneel
+knelt
+knife
+knock
+knoll
+known
+koala
+krill
+label
+labor
+laden
+ladle
+lager
+lance
+lanky
+lapel
+lapse
+large
+larva
+lasso
+latch
+later
+lathe
+latte
+laugh
+layer
+leach
+leafy
+leaky
+leant
+leapt
+learn
+lease
+leash
+least
+leave
+ledge
+leech
+leery
+lefty
+legal
+leggy
+lemon
+lemur
+leper
+level
+lever
+libel
+liege
+light
+liken
+lilac
+limbo
+limit
+linen
+liner
+lingo
+lipid
+lithe
+liver
+livid
+llama
+loamy
+loath
+lobby
+local
+locus
+lodge
+lofty
+logic
+login
+loopy
+loose
+lorry
+loser
+louse
+lousy
+lover
+lower
+lowly
+loyal
+lucid
+lucky
+lumen
+lumpy
+lunar
+lunch
+lunge
+lupus
+lurch
+lurid
+lusty
+lying
+lymph
+lynch
+lyric
+macaw
+macho
+macro
+madam
+madly
+mafia
+magic
+magma
+maize
+major
+maker
+mambo
+mamma
+mammy
+manga
+mange
+mango
+mangy
+mania
+manic
+manly
+manor
+maple
+march
+marry
+marsh
+mason
+masse
+match
+matey
+mauve
+maxim
+maybe
+mayor
+mealy
+meant
+meaty
+mecca
+medal
+media
+medic
+melee
+melon
+mercy
+merge
+merit
+merry
+metal
+meter
+metro
+micro
+midge
+midst
+might
+milky
+mimic
+mince
+miner
+minim
+minor
+minty
+minus
+mirth
+miser
+missy
+mocha
+modal
+model
+modem
+mogul
+moist
+molar
+moldy
+money
+month
+moody
+moose
+moral
+moron
+morph
+mossy
+motel
+motif
+motor
+motto
+moult
+mound
+mount
+mourn
+mouse
+mouth
+mover
+movie
+mower
+mucky
+mucus
+muddy
+mulch
+mummy
+munch
+mural
+murky
+mushy
+music
+musky
+musty
+myrrh
+nadir
+naive
+nanny
+nasal
+nasty
+natal
+naval
+navel
+needy
+neigh
+nerdy
+nerve
+never
+newer
+newly
+nicer
+niche
+niece
+night
+ninja
+ninny
+ninth
+noble
+nobly
+noise
+noisy
+nomad
+noose
+north
+nosey
+notch
+novel
+nudge
+nurse
+nutty
+nylon
+nymph
+oaken
+obese
+occur
+ocean
+octal
+octet
+odder
+oddly
+offal
+offer
+often
+olden
+older
+olive
+ombre
+omega
+onion
+onset
+opera
+opine
+opium
+optic
+orbit
+order
+organ
+other
+otter
+ought
+ounce
+outdo
+outer
+outgo
+ovary
+ovate
+overt
+ovine
+ovoid
+owing
+owner
+oxide
+ozone
+paddy
+pagan
+paint
+paler
+palsy
+panel
+panic
+pansy
+papal
+paper
+parer
+parka
+parry
+parse
+party
+pasta
+paste
+pasty
+patch
+patio
+patsy
+patty
+pause
+payee
+payer
+peace
+peach
+pearl
+pecan
+pedal
+penal
+pence
+penne
+penny
+perch
+peril
+perky
+pesky
+pesto
+petal
+petty
+phase
+phone
+phony
+photo
+piano
+picky
+piece
+piety
+piggy
+pilot
+pinch
+piney
+pinky
+pinto
+piper
+pique
+pitch
+pithy
+pivot
+pixel
+pixie
+pizza
+place
+plaid
+plain
+plait
+plane
+plank
+plant
+plate
+plaza
+plead
+pleat
+plied
+plier
+pluck
+plumb
+plume
+plump
+plunk
+plush
+poesy
+point
+poise
+poker
+polar
+polka
+polyp
+pooch
+poppy
+porch
+poser
+posit
+posse
+pouch
+pound
+pouty
+power
+prank
+prawn
+preen
+press
+price
+prick
+pride
+pried
+prime
+primo
+print
+prior
+prism
+privy
+prize
+probe
+prone
+prong
+proof
+prose
+proud
+prove
+prowl
+proxy
+prude
+prune
+psalm
+pubic
+pudgy
+puffy
+pulpy
+pulse
+punch
+pupal
+pupil
+puppy
+puree
+purer
+purge
+purse
+pushy
+putty
+pygmy
+quack
+quail
+quake
+qualm
+quark
+quart
+quash
+quasi
+queen
+queer
+quell
+query
+quest
+queue
+quick
+quiet
+quill
+quilt
+quirk
+quite
+quota
+quote
+quoth
+rabbi
+rabid
+racer
+radar
+radii
+radio
+rainy
+raise
+rajah
+rally
+ralph
+ramen
+ranch
+randy
+range
+rapid
+rarer
+raspy
+ratio
+ratty
+raven
+rayon
+razor
+reach
+react
+ready
+realm
+rearm
+rebar
+rebel
+rebus
+rebut
+recap
+recur
+recut
+reedy
+refer
+refit
+regal
+rehab
+reign
+relax
+relay
+relic
+remit
+renal
+renew
+repay
+repel
+reply
+rerun
+reset
+resin
+retch
+retro
+retry
+reuse
+revel
+revue
+rhino
+rhyme
+rider
+ridge
+rifle
+right
+rigid
+rigor
+rinse
+ripen
+riper
+risen
+riser
+risky
+rival
+river
+rivet
+roach
+roast
+robin
+robot
+rocky
+rodeo
+roger
+rogue
+roomy
+roost
+rotor
+rouge
+rough
+round
+rouse
+route
+rover
+rowdy
+rower
+royal
+ruddy
+ruder
+rugby
+ruler
+rumba
+rumor
+rupee
+rural
+rusty
+sadly
+safer
+saint
+salad
+sally
+salon
+salsa
+salty
+salve
+salvo
+sandy
+saner
+sappy
+sassy
+satin
+satyr
+sauce
+saucy
+sauna
+saute
+savor
+savoy
+savvy
+scald
+scale
+scalp
+scaly
+scamp
+scant
+scare
+scarf
+scary
+scene
+scent
+scion
+scoff
+scold
+scone
+scoop
+scope
+score
+scorn
+scour
+scout
+scowl
+scram
+scrap
+scree
+screw
+scrub
+scrum
+scuba
+sedan
+seedy
+segue
+seize
+semen
+sense
+sepia
+serif
+serum
+serve
+setup
+seven
+sever
+sewer
+shack
+shade
+shady
+shaft
+shake
+shaky
+shale
+shall
+shalt
+shame
+shank
+shape
+shard
+share
+shark
+sharp
+shave
+shawl
+shear
+sheen
+sheep
+sheer
+sheet
+sheik
+shelf
+shell
+shied
+shift
+shine
+shiny
+shire
+shirk
+shirt
+shoal
+shock
+shone
+shook
+shoot
+shore
+shorn
+short
+shout
+shove
+shown
+showy
+shrew
+shrub
+shrug
+shuck
+shunt
+shush
+shyly
+siege
+sieve
+sight
+sigma
+silky
+silly
+since
+sinew
+singe
+siren
+sissy
+sixth
+sixty
+skate
+skier
+skiff
+skill
+skimp
+skirt
+skulk
+skull
+skunk
+slack
+slain
+slang
+slant
+slash
+slate
+slave
+sleek
+sleep
+sleet
+slept
+slice
+slick
+slide
+slime
+slimy
+sling
+slink
+sloop
+slope
+slosh
+sloth
+slump
+slung
+slunk
+slurp
+slush
+slyly
+smack
+small
+smart
+smash
+smear
+smell
+smelt
+smile
+smirk
+smite
+smith
+smock
+smoke
+smoky
+smote
+snack
+snail
+snake
+snaky
+snare
+snarl
+sneak
+sneer
+snide
+sniff
+snipe
+snoop
+snore
+snort
+snout
+snowy
+snuck
+snuff
+soapy
+sober
+soggy
+solar
+solid
+solve
+sonar
+sonic
+sooth
+sooty
+sorry
+sound
+south
+sower
+space
+spade
+spank
+spare
+spark
+spasm
+spawn
+speak
+spear
+speck
+speed
+spell
+spelt
+spend
+spent
+sperm
+spice
+spicy
+spied
+spiel
+spike
+spiky
+spill
+spilt
+spine
+spiny
+spire
+spite
+splat
+split
+spoil
+spoke
+spoof
+spook
+spool
+spoon
+spore
+sport
+spout
+spray
+spree
+sprig
+spunk
+spurn
+spurt
+squad
+squat
+squib
+stack
+staff
+stage
+staid
+stain
+stair
+stake
+stale
+stalk
+stall
+stamp
+stand
+stank
+stare
+stark
+start
+stash
+state
+stave
+stead
+steak
+steal
+steam
+steed
+steel
+steep
+steer
+stein
+stern
+stick
+stiff
+still
+stilt
+sting
+stink
+stint
+stock
+stoic
+stoke
+stole
+stomp
+stone
+stony
+stood
+stool
+stoop
+store
+stork
+storm
+story
+stout
+stove
+strap
+straw
+stray
+strip
+strut
+stuck
+study
+stuff
+stump
+stung
+stunk
+stunt
+style
+suave
+sugar
+suing
+suite
+sulky
+sully
+sumac
+sunny
+super
+surer
+surge
+surly
+sushi
+swami
+swamp
+swarm
+swash
+swath
+swear
+sweat
+sweep
+sweet
+swell
+swept
+swift
+swill
+swine
+swing
+swirl
+swish
+swoon
+swoop
+sword
+swore
+sworn
+swung
+synod
+syrup
+tabby
+table
+taboo
+tacit
+tacky
+taffy
+taint
+taken
+taker
+tally
+talon
+tamer
+tango
+tangy
+taper
+tapir
+tardy
+tarot
+taste
+tasty
+tatty
+taunt
+tawny
+teach
+teary
+tease
+teddy
+teeth
+tempo
+tenet
+tenor
+tense
+tenth
+tepee
+tepid
+terra
+terse
+testy
+thank
+theft
+their
+theme
+there
+these
+theta
+thick
+thief
+thigh
+thing
+think
+third
+thong
+thorn
+those
+three
+threw
+throb
+throw
+thrum
+thumb
+thump
+thyme
+tiara
+tibia
+tidal
+tiger
+tight
+tilde
+timer
+timid
+tipsy
+titan
+tithe
+title
+toast
+today
+toddy
+token
+tonal
+tonga
+tonic
+tooth
+topaz
+topic
+torch
+torso
+torus
+total
+totem
+touch
+tough
+towel
+tower
+toxic
+toxin
+trace
+track
+tract
+trade
+trail
+train
+trait
+tramp
+trash
+trawl
+tread
+treat
+trend
+triad
+trial
+tribe
+trice
+trick
+tried
+tripe
+trite
+troll
+troop
+trope
+trout
+trove
+truce
+truck
+truer
+truly
+trump
+trunk
+truss
+trust
+truth
+tryst
+tubal
+tuber
+tulip
+tulle
+tumor
+tunic
+turbo
+tutor
+twang
+tweak
+tweed
+tweet
+twice
+twine
+twirl
+twist
+twixt
+tying
+udder
+ulcer
+ultra
+umbra
+uncle
+uncut
+under
+undid
+undue
+unfed
+unfit
+unify
+union
+unite
+unity
+unlit
+unmet
+unset
+untie
+until
+unwed
+unzip
+upper
+upset
+urban
+urine
+usage
+usher
+using
+usual
+usurp
+utile
+utter
+vague
+valet
+valid
+valor
+value
+valve
+vapid
+vapor
+vault
+vaunt
+vegan
+venom
+venue
+verge
+verse
+verso
+verve
+vicar
+video
+vigil
+vigor
+villa
+vinyl
+viola
+viper
+viral
+virus
+visit
+visor
+vista
+vital
+vivid
+vixen
+vocal
+vodka
+vogue
+voice
+voila
+vomit
+voter
+vouch
+vowel
+vying
+wacky
+wafer
+wager
+wagon
+waist
+waive
+waltz
+warty
+waste
+watch
+water
+waver
+waxen
+weary
+weave
+wedge
+weedy
+weigh
+weird
+welch
+welsh
+wench
+whack
+whale
+wharf
+wheat
+wheel
+whelp
+where
+which
+whiff
+while
+whine
+whiny
+whirl
+whisk
+white
+whole
+whoop
+whose
+widen
+wider
+widow
+width
+wield
+wight
+willy
+wimpy
+wince
+winch
+windy
+wiser
+wispy
+witch
+witty
+woken
+woman
+women
+woody
+wooer
+wooly
+woozy
+wordy
+world
+worry
+worse
+worst
+worth
+would
+wound
+woven
+wrack
+wrath
+wreak
+wreck
+wrest
+wring
+wrist
+write
+wrong
+wrote
+wrung
+wryly
+yacht
+yearn
+yeast
+yield
+young
+youth
+zebra
+zesty
+zonal
+
+Print each word from this list?! (y/n): n
+a: 979    b: 281    c: 477    d: 393    e: 1233    f: 230    g: 311    h: 389    i: 671    j: 27    k: 210    l: 719    m: 316    n: 575    o: 754    p: 367    q: 29    r: 899    s: 669    t: 729    u: 467    v: 153    w: 195    x: 37    y: 425    z: 40    Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 83, in <module>
+    print("The inputted character is: ", character)
+  File "test.py", line 28, in get_input
+    color = input("Enter the color the game returned for this character, \
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): y
+aback
+abase
+abate
+abbey
+abbot
+abhor
+abide
+abled
+abode
+abort
+about
+above
+abuse
+abyss
+acorn
+acrid
+actor
+acute
+adage
+adapt
+adept
+admin
+admit
+adobe
+adopt
+adore
+adorn
+adult
+affix
+afire
+afoot
+afoul
+after
+again
+agape
+agate
+agent
+agile
+aging
+aglow
+agony
+agora
+agree
+ahead
+aider
+aisle
+alarm
+album
+alert
+algae
+alibi
+alien
+align
+alike
+alive
+allay
+alley
+allot
+allow
+alloy
+aloft
+alone
+along
+aloof
+aloud
+alpha
+altar
+alter
+amass
+amaze
+amber
+amble
+amend
+amiss
+amity
+among
+ample
+amply
+amuse
+angel
+anger
+angle
+angry
+angst
+anime
+ankle
+annex
+annoy
+annul
+anode
+antic
+anvil
+aorta
+apart
+aphid
+aping
+apnea
+apple
+apply
+apron
+aptly
+arbor
+ardor
+arena
+argue
+arise
+armor
+aroma
+arose
+array
+arrow
+arson
+artsy
+ascot
+ashen
+aside
+askew
+assay
+asset
+atoll
+atone
+attic
+audio
+audit
+augur
+aunty
+avail
+avert
+avian
+avoid
+await
+awake
+award
+aware
+awash
+awful
+awoke
+axial
+axiom
+axion
+azure
+bacon
+badge
+badly
+bagel
+baggy
+baker
+baler
+balmy
+banal
+banjo
+barge
+baron
+basal
+basic
+basil
+basin
+basis
+baste
+batch
+bathe
+baton
+batty
+bawdy
+bayou
+beach
+beady
+beard
+beast
+beech
+beefy
+befit
+began
+begat
+beget
+begin
+begun
+being
+belch
+belie
+belle
+belly
+below
+bench
+beret
+berry
+berth
+beset
+betel
+bevel
+bezel
+bible
+bicep
+biddy
+bigot
+bilge
+billy
+binge
+bingo
+biome
+birch
+birth
+bison
+bitty
+black
+blade
+blame
+bland
+blank
+blare
+blast
+blaze
+bleak
+bleat
+bleed
+bleep
+blend
+bless
+blimp
+blind
+blink
+bliss
+blitz
+bloat
+block
+bloke
+blond
+blood
+bloom
+blown
+bluer
+bluff
+blunt
+blurb
+blurt
+blush
+board
+boast
+bobby
+boney
+bongo
+bonus
+booby
+boost
+booth
+booty
+booze
+boozy
+borax
+borne
+bosom
+bossy
+botch
+bough
+boule
+bound
+bowel
+boxer
+brace
+braid
+brain
+brake
+brand
+brash
+brass
+brave
+bravo
+brawl
+brawn
+bread
+break
+breed
+briar
+bribe
+brick
+bride
+brief
+brine
+bring
+brink
+briny
+brisk
+broad
+broil
+broke
+brood
+brook
+broom
+broth
+brown
+brunt
+brush
+brute
+buddy
+budge
+buggy
+bugle
+build
+built
+bulge
+bulky
+bully
+bunch
+bunny
+burly
+burnt
+burst
+bused
+bushy
+butch
+butte
+buxom
+buyer
+bylaw
+cabal
+cabby
+cabin
+cable
+cacao
+cache
+cacti
+caddy
+cadet
+cagey
+cairn
+camel
+cameo
+canal
+candy
+canny
+canoe
+canon
+caper
+caput
+carat
+cargo
+carol
+carry
+carve
+caste
+catch
+cater
+catty
+caulk
+cause
+cavil
+cease
+cedar
+cello
+chafe
+chaff
+chain
+chair
+chalk
+champ
+chant
+chaos
+chard
+charm
+chart
+chase
+chasm
+cheap
+cheat
+check
+cheek
+cheer
+chess
+chest
+chick
+chide
+chief
+child
+chili
+chill
+chime
+china
+chirp
+chock
+choir
+choke
+chord
+chore
+chose
+chuck
+chump
+chunk
+churn
+chute
+cider
+cigar
+cinch
+circa
+civic
+civil
+clack
+claim
+clamp
+clang
+clank
+clash
+clasp
+class
+clean
+clear
+cleat
+cleft
+clerk
+click
+cliff
+climb
+cling
+clink
+cloak
+clock
+clone
+close
+cloth
+cloud
+clout
+clove
+clown
+cluck
+clued
+clump
+clung
+coach
+coast
+cobra
+cocoa
+colon
+color
+comet
+comfy
+comic
+comma
+conch
+condo
+conic
+copse
+coral
+corer
+corny
+couch
+cough
+could
+count
+coupe
+court
+coven
+cover
+covet
+covey
+cower
+coyly
+crack
+craft
+cramp
+crane
+crank
+crash
+crass
+crate
+crave
+crawl
+craze
+crazy
+creak
+cream
+credo
+creed
+creek
+creep
+creme
+crepe
+crept
+cress
+crest
+crick
+cried
+crier
+crime
+crimp
+crisp
+croak
+crock
+crone
+crony
+crook
+cross
+croup
+crowd
+crown
+crude
+cruel
+crumb
+crump
+crush
+crust
+crypt
+cubic
+cumin
+curio
+curly
+curry
+curse
+curve
+curvy
+cutie
+cyber
+cycle
+cynic
+daddy
+daily
+dairy
+daisy
+dally
+dance
+dandy
+datum
+daunt
+dealt
+death
+debar
+debit
+debug
+debut
+decal
+decay
+decor
+decoy
+decry
+defer
+deign
+deity
+delay
+delta
+delve
+demon
+demur
+denim
+dense
+depot
+depth
+derby
+deter
+detox
+deuce
+devil
+diary
+dicey
+digit
+dilly
+dimly
+diner
+dingo
+dingy
+diode
+dirge
+dirty
+disco
+ditch
+ditto
+ditty
+diver
+dizzy
+dodge
+dodgy
+dogma
+doing
+dolly
+donor
+donut
+dopey
+doubt
+dough
+dowdy
+dowel
+downy
+dowry
+dozen
+draft
+drain
+drake
+drama
+drank
+drape
+drawl
+drawn
+dread
+dream
+dress
+dried
+drier
+drift
+drill
+drink
+drive
+droit
+droll
+drone
+drool
+droop
+dross
+drove
+drown
+druid
+drunk
+dryer
+dryly
+duchy
+dully
+dummy
+dumpy
+dunce
+dusky
+dusty
+dutch
+duvet
+dwarf
+dwell
+dwelt
+dying
+eager
+eagle
+early
+earth
+easel
+eaten
+eater
+ebony
+eclat
+edict
+edify
+eerie
+egret
+eight
+eject
+eking
+elate
+elbow
+elder
+elect
+elegy
+elfin
+elide
+elite
+elope
+elude
+email
+embed
+ember
+emcee
+empty
+enact
+endow
+enema
+enemy
+enjoy
+ennui
+ensue
+enter
+entry
+envoy
+epoch
+epoxy
+equal
+equip
+erase
+erect
+erode
+error
+erupt
+essay
+ester
+ether
+ethic
+ethos
+etude
+evade
+event
+every
+evict
+evoke
+exact
+exalt
+excel
+exert
+exile
+exist
+expel
+extol
+extra
+exult
+eying
+fable
+facet
+faint
+fairy
+faith
+false
+fancy
+fanny
+farce
+fatal
+fatty
+fault
+fauna
+favor
+feast
+fecal
+feign
+fella
+felon
+femme
+femur
+fence
+feral
+ferry
+fetal
+fetch
+fetid
+fetus
+fever
+fewer
+fiber
+fibre
+ficus
+field
+fiend
+fiery
+fifth
+fifty
+fight
+filer
+filet
+filly
+filmy
+filth
+final
+finch
+finer
+first
+fishy
+fixer
+fizzy
+fjord
+flack
+flail
+flair
+flake
+flaky
+flame
+flank
+flare
+flash
+flask
+fleck
+fleet
+flesh
+flick
+flier
+fling
+flint
+flirt
+float
+flock
+flood
+floor
+flora
+floss
+flour
+flout
+flown
+fluff
+fluid
+fluke
+flume
+flung
+flunk
+flush
+flute
+flyer
+foamy
+focal
+focus
+foggy
+foist
+folio
+folly
+foray
+force
+forge
+forgo
+forte
+forth
+forty
+forum
+found
+foyer
+frail
+frame
+frank
+fraud
+freak
+freed
+freer
+fresh
+friar
+fried
+frill
+frisk
+fritz
+frock
+frond
+front
+frost
+froth
+frown
+froze
+fruit
+fudge
+fugue
+fully
+fungi
+funky
+funny
+furor
+furry
+fussy
+fuzzy
+gaffe
+gaily
+gamer
+gamma
+gamut
+gassy
+gaudy
+gauge
+gaunt
+gauze
+gavel
+gawky
+gayer
+gayly
+gazer
+gecko
+geeky
+geese
+genie
+genre
+ghost
+ghoul
+giant
+giddy
+gipsy
+girly
+girth
+given
+giver
+glade
+gland
+glare
+glass
+glaze
+gleam
+glean
+glide
+glint
+gloat
+globe
+gloom
+glory
+gloss
+glove
+glyph
+gnash
+gnome
+godly
+going
+golem
+golly
+gonad
+goner
+goody
+gooey
+goofy
+goose
+gorge
+gouge
+gourd
+grace
+grade
+graft
+grail
+grain
+grand
+grant
+grape
+graph
+grasp
+grass
+grate
+grave
+gravy
+graze
+great
+greed
+green
+greet
+grief
+grill
+grime
+grimy
+grind
+gripe
+groan
+groin
+groom
+grope
+gross
+group
+grout
+grove
+growl
+grown
+gruel
+gruff
+grunt
+guard
+guava
+guess
+guest
+guide
+guild
+guile
+guilt
+guise
+gulch
+gully
+gumbo
+gummy
+guppy
+gusto
+gusty
+gypsy
+habit
+hairy
+halve
+handy
+happy
+hardy
+harem
+harpy
+harry
+harsh
+haste
+hasty
+hatch
+hater
+haunt
+haute
+haven
+havoc
+hazel
+heady
+heard
+heart
+heath
+heave
+heavy
+hedge
+hefty
+heist
+helix
+hello
+hence
+heron
+hilly
+hinge
+hippo
+hippy
+hitch
+hoard
+hobby
+hoist
+holly
+homer
+honey
+honor
+horde
+horny
+horse
+hotel
+hotly
+hound
+house
+hovel
+hover
+howdy
+human
+humid
+humor
+humph
+humus
+hunch
+hunky
+hurry
+husky
+hussy
+hutch
+hydro
+hyena
+hymen
+hyper
+icily
+icing
+ideal
+idiom
+idiot
+idler
+idyll
+igloo
+iliac
+image
+imbue
+impel
+imply
+inane
+inbox
+incur
+index
+inept
+inert
+infer
+ingot
+inlay
+inlet
+inner
+input
+inter
+intro
+ionic
+irate
+irony
+islet
+issue
+itchy
+ivory
+jaunt
+jazzy
+jelly
+jerky
+jetty
+jewel
+jiffy
+joint
+joist
+joker
+jolly
+joust
+judge
+juice
+juicy
+jumbo
+jumpy
+junta
+junto
+juror
+kappa
+karma
+kayak
+kebab
+khaki
+kinky
+kiosk
+kitty
+knack
+knave
+knead
+kneed
+kneel
+knelt
+knife
+knock
+knoll
+known
+koala
+krill
+label
+labor
+laden
+ladle
+lager
+lance
+lanky
+lapel
+lapse
+large
+larva
+lasso
+latch
+later
+lathe
+latte
+laugh
+layer
+leach
+leafy
+leaky
+leant
+leapt
+learn
+lease
+leash
+least
+leave
+ledge
+leech
+leery
+lefty
+legal
+leggy
+lemon
+lemur
+leper
+level
+lever
+libel
+liege
+light
+liken
+lilac
+limbo
+limit
+linen
+liner
+lingo
+lipid
+lithe
+liver
+livid
+llama
+loamy
+loath
+lobby
+local
+locus
+lodge
+lofty
+logic
+login
+loopy
+loose
+lorry
+loser
+louse
+lousy
+lover
+lower
+lowly
+loyal
+lucid
+lucky
+lumen
+lumpy
+lunar
+lunch
+lunge
+lupus
+lurch
+lurid
+lusty
+lying
+lymph
+lynch
+lyric
+macaw
+macho
+macro
+madam
+madly
+mafia
+magic
+magma
+maize
+major
+maker
+mambo
+mamma
+mammy
+manga
+mange
+mango
+mangy
+mania
+manic
+manly
+manor
+maple
+march
+marry
+marsh
+mason
+masse
+match
+matey
+mauve
+maxim
+maybe
+mayor
+mealy
+meant
+meaty
+mecca
+medal
+media
+medic
+melee
+melon
+mercy
+merge
+merit
+merry
+metal
+meter
+metro
+micro
+midge
+midst
+might
+milky
+mimic
+mince
+miner
+minim
+minor
+minty
+minus
+mirth
+miser
+missy
+mocha
+modal
+model
+modem
+mogul
+moist
+molar
+moldy
+money
+month
+moody
+moose
+moral
+moron
+morph
+mossy
+motel
+motif
+motor
+motto
+moult
+mound
+mount
+mourn
+mouse
+mouth
+mover
+movie
+mower
+mucky
+mucus
+muddy
+mulch
+mummy
+munch
+mural
+murky
+mushy
+music
+musky
+musty
+myrrh
+nadir
+naive
+nanny
+nasal
+nasty
+natal
+naval
+navel
+needy
+neigh
+nerdy
+nerve
+never
+newer
+newly
+nicer
+niche
+niece
+night
+ninja
+ninny
+ninth
+noble
+nobly
+noise
+noisy
+nomad
+noose
+north
+nosey
+notch
+novel
+nudge
+nurse
+nutty
+nylon
+nymph
+oaken
+obese
+occur
+ocean
+octal
+octet
+odder
+oddly
+offal
+offer
+often
+olden
+older
+olive
+ombre
+omega
+onion
+onset
+opera
+opine
+opium
+optic
+orbit
+order
+organ
+other
+otter
+ought
+ounce
+outdo
+outer
+outgo
+ovary
+ovate
+overt
+ovine
+ovoid
+owing
+owner
+oxide
+ozone
+paddy
+pagan
+paint
+paler
+palsy
+panel
+panic
+pansy
+papal
+paper
+parer
+parka
+parry
+parse
+party
+pasta
+paste
+pasty
+patch
+patio
+patsy
+patty
+pause
+payee
+payer
+peace
+peach
+pearl
+pecan
+pedal
+penal
+pence
+penne
+penny
+perch
+peril
+perky
+pesky
+pesto
+petal
+petty
+phase
+phone
+phony
+photo
+piano
+picky
+piece
+piety
+piggy
+pilot
+pinch
+piney
+pinky
+pinto
+piper
+pique
+pitch
+pithy
+pivot
+pixel
+pixie
+pizza
+place
+plaid
+plain
+plait
+plane
+plank
+plant
+plate
+plaza
+plead
+pleat
+plied
+plier
+pluck
+plumb
+plume
+plump
+plunk
+plush
+poesy
+point
+poise
+poker
+polar
+polka
+polyp
+pooch
+poppy
+porch
+poser
+posit
+posse
+pouch
+pound
+pouty
+power
+prank
+prawn
+preen
+press
+price
+prick
+pride
+pried
+prime
+primo
+print
+prior
+prism
+privy
+prize
+probe
+prone
+prong
+proof
+prose
+proud
+prove
+prowl
+proxy
+prude
+prune
+psalm
+pubic
+pudgy
+puffy
+pulpy
+pulse
+punch
+pupal
+pupil
+puppy
+puree
+purer
+purge
+purse
+pushy
+putty
+pygmy
+quack
+quail
+quake
+qualm
+quark
+quart
+quash
+quasi
+queen
+queer
+quell
+query
+quest
+queue
+quick
+quiet
+quill
+quilt
+quirk
+quite
+quota
+quote
+quoth
+rabbi
+rabid
+racer
+radar
+radii
+radio
+rainy
+raise
+rajah
+rally
+ralph
+ramen
+ranch
+randy
+range
+rapid
+rarer
+raspy
+ratio
+ratty
+raven
+rayon
+razor
+reach
+react
+ready
+realm
+rearm
+rebar
+rebel
+rebus
+rebut
+recap
+recur
+recut
+reedy
+refer
+refit
+regal
+rehab
+reign
+relax
+relay
+relic
+remit
+renal
+renew
+repay
+repel
+reply
+rerun
+reset
+resin
+retch
+retro
+retry
+reuse
+revel
+revue
+rhino
+rhyme
+rider
+ridge
+rifle
+right
+rigid
+rigor
+rinse
+ripen
+riper
+risen
+riser
+risky
+rival
+river
+rivet
+roach
+roast
+robin
+robot
+rocky
+rodeo
+roger
+rogue
+roomy
+roost
+rotor
+rouge
+rough
+round
+rouse
+route
+rover
+rowdy
+rower
+royal
+ruddy
+ruder
+rugby
+ruler
+rumba
+rumor
+rupee
+rural
+rusty
+sadly
+safer
+saint
+salad
+sally
+salon
+salsa
+salty
+salve
+salvo
+sandy
+saner
+sappy
+sassy
+satin
+satyr
+sauce
+saucy
+sauna
+saute
+savor
+savoy
+savvy
+scald
+scale
+scalp
+scaly
+scamp
+scant
+scare
+scarf
+scary
+scene
+scent
+scion
+scoff
+scold
+scone
+scoop
+scope
+score
+scorn
+scour
+scout
+scowl
+scram
+scrap
+scree
+screw
+scrub
+scrum
+scuba
+sedan
+seedy
+segue
+seize
+semen
+sense
+sepia
+serif
+serum
+serve
+setup
+seven
+sever
+sewer
+shack
+shade
+shady
+shaft
+shake
+shaky
+shale
+shall
+shalt
+shame
+shank
+shape
+shard
+share
+shark
+sharp
+shave
+shawl
+shear
+sheen
+sheep
+sheer
+sheet
+sheik
+shelf
+shell
+shied
+shift
+shine
+shiny
+shire
+shirk
+shirt
+shoal
+shock
+shone
+shook
+shoot
+shore
+shorn
+short
+shout
+shove
+shown
+showy
+shrew
+shrub
+shrug
+shuck
+shunt
+shush
+shyly
+siege
+sieve
+sight
+sigma
+silky
+silly
+since
+sinew
+singe
+siren
+sissy
+sixth
+sixty
+skate
+skier
+skiff
+skill
+skimp
+skirt
+skulk
+skull
+skunk
+slack
+slain
+slang
+slant
+slash
+slate
+slave
+sleek
+sleep
+sleet
+slept
+slice
+slick
+slide
+slime
+slimy
+sling
+slink
+sloop
+slope
+slosh
+sloth
+slump
+slung
+slunk
+slurp
+slush
+slyly
+smack
+small
+smart
+smash
+smear
+smell
+smelt
+smile
+smirk
+smite
+smith
+smock
+smoke
+smoky
+smote
+snack
+snail
+snake
+snaky
+snare
+snarl
+sneak
+sneer
+snide
+sniff
+snipe
+snoop
+snore
+snort
+snout
+snowy
+snuck
+snuff
+soapy
+sober
+soggy
+solar
+solid
+solve
+sonar
+sonic
+sooth
+sooty
+sorry
+sound
+south
+sower
+space
+spade
+spank
+spare
+spark
+spasm
+spawn
+speak
+spear
+speck
+speed
+spell
+spelt
+spend
+spent
+sperm
+spice
+spicy
+spied
+spiel
+spike
+spiky
+spill
+spilt
+spine
+spiny
+spire
+spite
+splat
+split
+spoil
+spoke
+spoof
+spook
+spool
+spoon
+spore
+sport
+spout
+spray
+spree
+sprig
+spunk
+spurn
+spurt
+squad
+squat
+squib
+stack
+staff
+stage
+staid
+stain
+stair
+stake
+stale
+stalk
+stall
+stamp
+stand
+stank
+stare
+stark
+start
+stash
+state
+stave
+stead
+steak
+steal
+steam
+steed
+steel
+steep
+steer
+stein
+stern
+stick
+stiff
+still
+stilt
+sting
+stink
+stint
+stock
+stoic
+stoke
+stole
+stomp
+stone
+stony
+stood
+stool
+stoop
+store
+stork
+storm
+story
+stout
+stove
+strap
+straw
+stray
+strip
+strut
+stuck
+study
+stuff
+stump
+stung
+stunk
+stunt
+style
+suave
+sugar
+suing
+suite
+sulky
+sully
+sumac
+sunny
+super
+surer
+surge
+surly
+sushi
+swami
+swamp
+swarm
+swash
+swath
+swear
+sweat
+sweep
+sweet
+swell
+swept
+swift
+swill
+swine
+swing
+swirl
+swish
+swoon
+swoop
+sword
+swore
+sworn
+swung
+synod
+syrup
+tabby
+table
+taboo
+tacit
+tacky
+taffy
+taint
+taken
+taker
+tally
+talon
+tamer
+tango
+tangy
+taper
+tapir
+tardy
+tarot
+taste
+tasty
+tatty
+taunt
+tawny
+teach
+teary
+tease
+teddy
+teeth
+tempo
+tenet
+tenor
+tense
+tenth
+tepee
+tepid
+terra
+terse
+testy
+thank
+theft
+their
+theme
+there
+these
+theta
+thick
+thief
+thigh
+thing
+think
+third
+thong
+thorn
+those
+three
+threw
+throb
+throw
+thrum
+thumb
+thump
+thyme
+tiara
+tibia
+tidal
+tiger
+tight
+tilde
+timer
+timid
+tipsy
+titan
+tithe
+title
+toast
+today
+toddy
+token
+tonal
+tonga
+tonic
+tooth
+topaz
+topic
+torch
+torso
+torus
+total
+totem
+touch
+tough
+towel
+tower
+toxic
+toxin
+trace
+track
+tract
+trade
+trail
+train
+trait
+tramp
+trash
+trawl
+tread
+treat
+trend
+triad
+trial
+tribe
+trice
+trick
+tried
+tripe
+trite
+troll
+troop
+trope
+trout
+trove
+truce
+truck
+truer
+truly
+trump
+trunk
+truss
+trust
+truth
+tryst
+tubal
+tuber
+tulip
+tulle
+tumor
+tunic
+turbo
+tutor
+twang
+tweak
+tweed
+tweet
+twice
+twine
+twirl
+twist
+twixt
+tying
+udder
+ulcer
+ultra
+umbra
+uncle
+uncut
+under
+undid
+undue
+unfed
+unfit
+unify
+union
+unite
+unity
+unlit
+unmet
+unset
+untie
+until
+unwed
+unzip
+upper
+upset
+urban
+urine
+usage
+usher
+using
+usual
+usurp
+utile
+utter
+vague
+valet
+valid
+valor
+value
+valve
+vapid
+vapor
+vault
+vaunt
+vegan
+venom
+venue
+verge
+verse
+verso
+verve
+vicar
+video
+vigil
+vigor
+villa
+vinyl
+viola
+viper
+viral
+virus
+visit
+visor
+vista
+vital
+vivid
+vixen
+vocal
+vodka
+vogue
+voice
+voila
+vomit
+voter
+vouch
+vowel
+vying
+wacky
+wafer
+wager
+wagon
+waist
+waive
+waltz
+warty
+waste
+watch
+water
+waver
+waxen
+weary
+weave
+wedge
+weedy
+weigh
+weird
+welch
+welsh
+wench
+whack
+whale
+wharf
+wheat
+wheel
+whelp
+where
+which
+whiff
+while
+whine
+whiny
+whirl
+whisk
+white
+whole
+whoop
+whose
+widen
+wider
+widow
+width
+wield
+wight
+willy
+wimpy
+wince
+winch
+windy
+wiser
+wispy
+witch
+witty
+woken
+woman
+women
+woody
+wooer
+wooly
+woozy
+wordy
+world
+worry
+worse
+worst
+worth
+would
+wound
+woven
+wrack
+wrath
+wreak
+wreck
+wrest
+wring
+wrist
+write
+wrong
+wrote
+wrung
+wryly
+yacht
+yearn
+yeast
+yield
+young
+youth
+zebra
+zesty
+zonal
+a: 979    b: 281    c: 477    d: 393    e: 1233    f: 230    g: 311    h: 389    i: 671    j: 27    k: 210    l: 719    m: 316    n: 575    o: 754    p: 367    q: 29    r: 899    s: 669    t: 729    u: 467    v: 153    w: 195    x: 37    y: 425    z: 40    Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 82, in <module>
+    continue_input = 1
+  File "test.py", line 27, in get_input
+    character = input("Enter a character you have already inputted in the game: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+
+a: 979    b: 281    c: 477    d: 393    e: 1233    f: 230    g: 311    h: 389    i: 671    j: 27    k: 210    l: 719    m: 316    n: 575    o: 754    p: 367    q: 29    r: 899    s: 669    t: 729    u: 467    v: 153    w: 195    x: 37    y: 425    z: 40    
+Choose words which have the letters with the highest frequency in the list!
+Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 84, in <module>
+    character, color, position = get_input()
+  File "test.py", line 27, in get_input
+    character = input("\nEnter a character you have already inputted in the game: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+
+a: 979    b: 281    c: 477    d: 393    e: 1233    f: 230    g: 311    h: 389    i: 671    j: 27    k: 210    l: 719    m: 316    n: 575    o: 754    p: 367    q: 29    r: 899    s: 669    t: 729    u: 467    v: 153    w: 195    x: 37    y: 425    z: 40    
+
+Choose words which have the letters with the highest frequency in the list!
+
+Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 84, in <module>
+    character, color, position = get_input()
+  File "test.py", line 27, in get_input
+    character = input("\nEnter a character you have already inputted in the game: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+
+a: 979
+b: 281
+c: 477
+d: 393
+e: 1233
+f: 230
+g: 311
+h: 389
+i: 671
+j: 27
+k: 210
+l: 719
+m: 316
+n: 575
+o: 754
+p: 367
+q: 29
+r: 899
+s: 669
+t: 729
+u: 467
+v: 153
+w: 195
+x: 37
+y: 425
+z: 40
+
+
+Choose words which have the letters with the highest frequency in the list!
+
+Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 84, in <module>
+    character, color, position = get_input()
+  File "test.py", line 27, in get_input
+    character = input("\nEnter a character you have already inputted in the game: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+a: 979
+b: 281
+c: 477
+d: 393
+e: 1233
+f: 230
+g: 311
+h: 389
+i: 671
+j: 27
+k: 210
+l: 719
+m: 316
+n: 575
+o: 754
+p: 367
+q: 29
+r: 899
+s: 669
+t: 729
+u: 467
+v: 153
+w: 195
+x: 37
+y: 425
+z: 40
+
+
+Choose words which have the letters with the highest frequency in the list!
+
+Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 84, in <module>
+    while continue_input:
+  File "test.py", line 27, in get_input
+    character = input("\nEnter a character you have already inputted in the game: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+  File "test.py", line 54
+    dict_to_list = [(value, key) for key, value in dictionary.iteritems() if value != 0]
+                                                                                       ^
+IndentationError: unindent does not match any outer indentation level
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): ^CTraceback (most recent call last):
+  File "test.py", line 65, in <module>
+    display_initial_word_list(words)
+  File "test.py", line 24, in display_initial_word_list
+    print_all_list_elements(words)
+  File "test.py", line 12, in print_all_list_elements
+    p = input("\nPrint each word from this list?! (y/n): ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Choose words which have the letters with the highest frequency in the list!
+
+Enter a character you have already inputted in the game: t
+Enter the color the game returned for this character, 		green (g), yellow (y), or black (b): ^CTraceback (most recent call last):
+  File "test.py", line 85, in <module>
+    print("The inputted character is: ", character)
+  File "test.py", line 28, in get_input
+    color = input("Enter the color the game returned for this character, green (g), yellow (y), or black (b): ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Choose words which have the letters with the highest frequency in the list!
+
+Enter a character you have already inputted in the game: t
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 0
+The inputted character is:  t
+Its color returned by the game is:  y
+Its inputted position is:  0
+length of updated list =  518
+abate
+abbot
+abort
+about
+actor
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+t:546
+e:245
+a:212
+s:186
+o:159
+i:150
+r:141
+u:114
+l:109
+h:104
+n:91
+c:79
+p:64
+y:62
+f:59
+b:47
+d:46
+m:42
+g:40
+w:27
+v:19
+k:17
+x:10
+q:9
+j:8
+z:4
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: e
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  e
+Its color returned by the game is:  b
+length of updated list =  303
+abbot
+abort
+about
+actor
+adapt
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+t:323
+a:130
+o:128
+s:117
+i:114
+u:82
+r:78
+h:75
+n:66
+l:60
+y:48
+c:48
+f:42
+p:41
+b:30
+g:29
+d:27
+m:26
+w:16
+k:12
+v:7
+j:6
+q:5
+z:3
+x:2
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 2
+The inputted character is:  a
+Its color returned by the game is:  y
+Its inputted position is:  2
+length of updated list =  83
+abbot
+abort
+about
+actor
+admit
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+t:89
+a:89
+l:22
+o:20
+y:19
+s:19
+c:19
+u:18
+i:17
+n:16
+r:15
+p:13
+h:13
+b:9
+f:8
+d:6
+w:5
+m:5
+v:4
+g:4
+q:2
+j:2
+z:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: r
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  r
+Its color returned by the game is:  b
+length of updated list =  68
+abbot
+about
+admit
+adopt
+adult
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+t:73
+a:71
+l:20
+u:17
+c:17
+o:16
+n:16
+i:16
+s:14
+y:13
+h:13
+p:11
+f:8
+b:8
+d:6
+m:5
+v:4
+g:4
+w:3
+q:2
+j:2
+z:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: y
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  y
+Its color returned by the game is:  b
+length of updated list =  55
+abbot
+about
+admit
+adopt
+adult
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:58
+t:56
+l:18
+u:16
+o:16
+i:15
+c:15
+n:14
+h:11
+s:9
+p:7
+f:7
+b:7
+d:6
+v:4
+m:4
+g:4
+w:3
+q:2
+j:2
+z:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): y
+abbot
+about
+admit
+adopt
+adult
+afoot
+allot
+aloft
+angst
+antic
+ascot
+atoll
+attic
+audit
+batch
+baton
+bloat
+cacti
+caput
+catch
+datum
+daunt
+faint
+faith
+fatal
+fault
+float
+gamut
+gaunt
+gloat
+habit
+hatch
+haunt
+jaunt
+junta
+latch
+match
+natal
+octal
+paint
+pasta
+patch
+patio
+quota
+saint
+satin
+splat
+squat
+vault
+vaunt
+vista
+vital
+waist
+waltz
+watch
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 0
+The inputted character is:  a
+Its color returned by the game is:  y
+Its inputted position is:  0
+length of updated list =  41
+batch
+baton
+bloat
+cacti
+caput
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:44
+t:41
+u:13
+n:12
+l:12
+c:12
+i:11
+h:11
+s:7
+o:7
+p:6
+f:5
+v:4
+b:4
+w:3
+m:3
+g:3
+q:2
+j:2
+d:2
+z:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: n
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  n
+Its color returned by the game is:  b
+length of updated list =  29
+batch
+bloat
+cacti
+caput
+catch
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:31
+t:29
+c:12
+l:11
+h:10
+u:7
+i:7
+o:6
+s:5
+p:5
+f:4
+w:3
+v:3
+m:3
+b:3
+q:2
+g:2
+z:1
+d:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: t
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 2
+The inputted character is:  t
+Its color returned by the game is:  y
+Its inputted position is:  2
+length of updated list =  17
+bloat
+cacti
+caput
+faith
+fault
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:18
+t:17
+l:7
+u:6
+s:5
+i:5
+o:4
+p:3
+f:3
+c:3
+w:2
+v:2
+q:2
+h:2
+g:2
+b:2
+z:1
+m:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): n
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: i
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  i
+Its color returned by the game is:  b
+length of updated list =  12
+bloat
+caput
+fault
+float
+gamut
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:13
+t:12
+l:7
+u:6
+o:4
+s:3
+p:3
+q:2
+g:2
+f:2
+z:1
+w:1
+v:1
+m:1
+c:1
+b:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): y
+bloat
+caput
+fault
+float
+gamut
+gloat
+pasta
+quota
+splat
+squat
+vault
+waltz
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: c
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  c
+Its color returned by the game is:  b
+length of updated list =  11
+bloat
+fault
+float
+gamut
+gloat
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:12
+t:11
+l:7
+u:5
+o:4
+s:3
+q:2
+p:2
+g:2
+f:2
+z:1
+w:1
+v:1
+m:1
+b:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): y
+bloat
+fault
+float
+gamut
+gloat
+pasta
+quota
+splat
+squat
+vault
+waltz
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: f
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): b
+The inputted character is:  f
+Its color returned by the game is:  b
+length of updated list =  9
+bloat
+gamut
+gloat
+pasta
+quota
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:10
+t:9
+l:5
+u:4
+s:3
+o:3
+q:2
+p:2
+g:2
+z:1
+w:1
+v:1
+m:1
+b:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): y
+bloat
+gamut
+gloat
+pasta
+quota
+splat
+squat
+vault
+waltz
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: a
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): g
+Enter the position of this character (0 to 4): 1
+The inputted character is:  a
+Its color returned by the game is:  g
+Its inputted position is:  1
+length of updated list =  4
+gamut
+pasta
+vault
+waltz
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+a:5
+t:4
+u:2
+l:2
+z:1
+w:1
+v:1
+s:1
+p:1
+m:1
+g:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): y
+gamut
+pasta
+vault
+waltz
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter a character you have already inputted in the game: u
+Enter the color the game returned for this character, green (g), yellow (y), or black (b): y
+Enter the position of this character (0 to 4): 2
+The inputted character is:  u
+Its color returned by the game is:  y
+Its inputted position is:  2
+length of updated list =  1
+gamut
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+u:1
+t:1
+m:1
+g:1
+a:1
+
+
+Choose words which have the letters with the highest frequency in the list!
+Print each word from this list?! (y/n): y
+gamut
+Continue? 1 for Yes, 0 to Exit!: 0
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Enter a character you have already inputted in the game: ^CTraceback (most recent call last):
+  File "test.py", line 84, in <module>
+    next guess on the most frequently occuring letters in the remaining list of words.
+  File "test.py", line 27, in get_input
+    characters = input("\nEnter the word you have already inputted in the game: ")
+KeyboardInterrupt
+
+(base) Gurkirans-MacBook-Pro:Wordle gkb$ 

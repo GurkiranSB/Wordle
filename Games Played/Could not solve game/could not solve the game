@@ -1,0 +1,245 @@
+Rishipals-MacBook-Pro:Wordle gurkiran$ python test.py
+
+Welcome to the Wordle Assistant!
+Let's begin by viewing a list of all possible valid Wordle words.
+
+The length of the list of all possible words is: 2315
+
+Here are some of the words from the list:
+aback
+abase
+abate
+abbey
+abbot
+.
+.
+.
+.
+.
+
+
+Print each word from this list?! (y/n): n
+
+Frequency distribution for this list is:
+
+e:1233
+a:979
+r:899
+o:754
+t:729
+l:719
+i:671
+s:669
+n:575
+c:477
+u:467
+y:425
+d:393
+h:389
+p:367
+m:316
+g:311
+b:281
+f:230
+k:210
+w:195
+v:153
+z:40
+x:37
+q:29
+j:27
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Enter the word you have already inputted in the game: treat
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbbb
+The inputted word is:  treat
+Colors returned by the game are:  bgbbb
+length of updated list =  65
+brick
+bring
+brink
+briny
+brisk
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:66
+o:43
+i:26
+n:19
+c:18
+p:16
+l:16
+d:16
+g:15
+k:13
+w:12
+s:12
+b:12
+u:11
+y:10
+m:8
+f:8
+h:2
+x:1
+v:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+brick
+bring
+brink
+briny
+brisk
+broil
+brood
+brook
+broom
+brown
+brush
+crick
+crimp
+crisp
+crock
+crony
+crook
+cross
+croup
+crowd
+crown
+crumb
+crump
+crush
+drill
+drink
+droll
+drool
+droop
+dross
+drown
+druid
+drunk
+dryly
+frill
+frisk
+frock
+frond
+frown
+grill
+grimy
+grind
+groin
+groom
+gross
+group
+growl
+grown
+gruff
+irony
+krill
+prick
+primo
+prior
+prism
+privy
+prong
+proof
+proud
+prowl
+proxy
+wring
+wrong
+wrung
+wryly
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: groin
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bgbyb
+The inputted word is:  groin
+Colors returned by the game are:  bgbyb
+length of updated list =  12
+brick
+brisk
+crick
+crimp
+crisp
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+r:12
+i:12
+l:6
+k:6
+c:6
+p:5
+s:4
+m:2
+f:2
+b:2
+y:1
+v:1
+d:1
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+brick
+brisk
+crick
+crimp
+crisp
+drill
+frill
+frisk
+krill
+prick
+prism
+privy
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: crisp
+Enter the colors the game returned for this word, green (g), yellow (y), or black (b): bggbg
+The inputted word is:  crisp
+Colors returned by the game are:  bggbg
+length of updated list =  0
+Series([], )
+.
+.
+.
+.
+.
+
+Frequency distribution for this list is:
+
+
+
+Pro tip: Choose words which have the letters with the highest frequency in the list!
+
+Print each word from this list?! (y/n): y
+
+ Let's suggest the next word based on the updated list:
+
+Continue? 1 for Yes, 0 to Exit!: 1
+
+Enter the word you have already inputted in the game: 
