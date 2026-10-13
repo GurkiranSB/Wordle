@@ -29,7 +29,15 @@ For each guess, enter the five-letter word and its five tile colors:
 - `b` for black/gray
 
 The script filters `words/words.csv`, displays the remaining candidates, and
-prints letter-frequency statistics to help choose another guess.
+prints letter-frequency statistics to help choose another guess. This dictionary
+contains the comprehensive list of potentially valid five-letter Wordle guesses.
+The previous answer-word list is preserved as
+`words/backup2315words.csv`.
+
+The comprehensive list is sourced from
+[tabatkins/wordle-list](https://github.com/tabatkins/wordle-list), which
+provides the potentially valid guesses from Wordle's source. Its MIT license
+and copyright notice are included in `words/LICENSE`.
 
 ## Current limitations
 
