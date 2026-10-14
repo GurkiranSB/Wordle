@@ -76,7 +76,28 @@ def reduce_words(words, characters, colors):
 						for candidate_position in range(len(characters)):
 							if candidate_position not in green_positions:
 								words = words[words.str[candidate_position] != character]		
-
+	"""
+	Following block handles the **letter-count rule for every distinct letter in the guess**, 
+	whatever its feedback pattern. 
+	The earlier code handles the positions; 
+	this block handles how many copies the answer may contain.
+	For your examples:
+	- **Green + yellow**: at least 2 copies
+	- **Yellow + yellow**: at least 2 copies
+	- **Yellow + black**: exactly 1 copy
+	- **Green + black**: exactly 1 copy
+	
+	It also covers **green + green** (at least 2), 
+	**black + black** (exactly 0), 
+	and combinations with three or more copies, 
+	such as green + yellow + black (exactly 2).
+	
+	The key rule is: 
+	if the feedback for a letter includes black, 
+	keep candidates with **exactly** the number of green/yellow copies; 
+	if it has no black, 
+	keep candidates with **at least** that number.
+	"""
 	for character in set(characters):
 		feedback = [
 			colors[position]
