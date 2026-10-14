@@ -76,6 +76,21 @@ def reduce_words(words, characters, colors):
 						for candidate_position in range(len(characters)):
 							if candidate_position not in green_positions:
 								words = words[words.str[candidate_position] != character]		
+
+	for character in set(characters):
+		feedback = [
+			colors[position]
+			for position, guessed_character in enumerate(characters)
+			if guessed_character == character
+			]
+		known_count = sum(color in ('g', 'y') for color in feedback)
+		candidate_counts = words.str.count(character)
+		
+		if 'b' in feedback:
+			words = words[candidate_counts == known_count]
+		else:
+			words = words[candidate_counts >= known_count]
+	
 	return words
 
 def display_statistics(words):
