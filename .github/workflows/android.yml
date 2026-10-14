@@ -45,6 +45,7 @@ jobs:
           trap 'rm -f "$KEYSTORE_PATH"' EXIT
           keytool -genkeypair -noprompt \
             -keystore "$KEYSTORE_PATH" \
+            -storetype JKS \
             -storepass ci-only-store-password \
             -keypass ci-only-key-password \
             -alias ci-only-upload \

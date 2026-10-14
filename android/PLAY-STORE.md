@@ -45,6 +45,7 @@ your own strong passwords; keep a secure backup of the keystore):
 ```sh
 keytool -genkeypair -v \
   -keystore word-puzzle-coach-upload.jks \
+  -storetype JKS \
   -keyalg RSA -keysize 2048 -validity 10000 \
   -alias word-puzzle-coach-upload
 ```

@@ -285,14 +285,9 @@ private fun SuggestionCard(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween,
                 ) {
-                    AnimatedVisibility(
-                        visible = suggestion != null,
-                        enter = fadeIn() + scaleIn(),
-                    ) {
-                        Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
-                            suggestion.orEmpty().forEach { letter ->
-                                SuggestionTile(letter = letter)
-                            }
+                    Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+                        suggestion.forEach { letter ->
+                            SuggestionTile(letter = letter)
                         }
                     }
                     Text(
