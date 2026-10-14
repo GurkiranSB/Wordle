@@ -1,0 +1,94 @@
+name: Android release bundle
+
+on:
+  push:
+    tags:
+      - "play-v*"
+  workflow_dispatch:
+    inputs:
+      version_code:
+        description: "Positive Play Store version code (increase for every upload)"
+        required: true
+        type: string
+      version_name:
+        description: "User-visible release version, for example 1.0.0"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: Test and package signed Play Store bundle
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.11.1"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          packages: "platform-tools platforms;android-36 build-tools;36.0.0"
+
+      - name: Validate release inputs and signing secrets
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          VERSION_CODE: ${{ inputs.version_code || github.run_number }}
+          VERSION_NAME: ${{ inputs.version_name || github.ref_name }}
+        run: |
+          set -euo pipefail
+          [[ "$VERSION_CODE" =~ ^[1-9][0-9]*$ ]] || { echo "version_code must be a positive integer."; exit 1; }
+          VERSION_NAME="${VERSION_NAME#play-v}"
+          [[ -n "$VERSION_NAME" ]] || { echo "version_name is required."; exit 1; }
+          [[ -n "$ANDROID_KEYSTORE_BASE64" && -n "$ANDROID_KEYSTORE_PASSWORD" && -n "$ANDROID_KEY_ALIAS" && -n "$ANDROID_KEY_PASSWORD" ]] || {
+            echo "Configure ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS, and ANDROID_KEY_PASSWORD repository secrets first."
+            exit 1
+          }
+
+      - name: Run Android unit tests
+        working-directory: android
+        run: gradle --no-daemon :app:testDebugUnitTest
+
+      - name: Build signed Play Store bundle
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          VERSION_CODE: ${{ inputs.version_code || github.run_number }}
+          VERSION_NAME: ${{ inputs.version_name || github.ref_name }}
+        working-directory: android
+        run: |
+          set -euo pipefail
+          KEYSTORE_PATH="$RUNNER_TEMP/word-puzzle-coach-upload.jks"
+          trap 'rm -f "$KEYSTORE_PATH"' EXIT
+          VERSION_NAME="${VERSION_NAME#play-v}"
+          printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$KEYSTORE_PATH"
+          export ANDROID_KEYSTORE_PATH="$KEYSTORE_PATH"
+          gradle --no-daemon :app:bundleRelease \
+            "-PversionCode=$VERSION_CODE" \
+            "-PversionName=$VERSION_NAME"
+
+      - name: Upload signed Android App Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: word-puzzle-coach-play-bundle
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 14

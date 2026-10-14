@@ -20,6 +20,7 @@ class WordleSolverTest {
         )
 
         assertTrue(WordleSolver.matches("axial", feedback))
+        assertFalse(WordleSolver.matches("apple", feedback))
         assertFalse(WordleSolver.matches("alley", feedback))
     }
 

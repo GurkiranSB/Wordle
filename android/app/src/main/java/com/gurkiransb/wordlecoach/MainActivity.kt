@@ -21,8 +21,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -136,7 +136,7 @@ private fun WordleCoachApp(readWords: suspend () -> List<String>) {
 
     Scaffold(
         containerColor = Paper,
-        contentWindowInsets = WindowInsets.statusBars,
+        contentWindowInsets = WindowInsets.safeDrawing,
     ) { scaffoldPadding ->
         Column(
             modifier = Modifier
@@ -227,8 +227,8 @@ private fun Header(onReset: () -> Unit) {
     ) {
         Column {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("WORDLE", fontSize = 27.sp, fontWeight = FontWeight.Black, color = Ink)
-                Text(" ✦", fontSize = 23.sp, fontWeight = FontWeight.Bold, color = Yellow)
+                Text("WORD PUZZLE", fontSize = 22.sp, fontWeight = FontWeight.Black, color = Ink)
+                Text(" ✦", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Yellow)
             }
             Text(
                 "COACH  ·  YOUR DAILY BRAIN BOOST",

@@ -51,7 +51,8 @@ The native Kotlin and Jetpack Compose app lives in the [`android/`](android/)
 directory. It works offline with the bundled word list, lets you enter a guess
 and tap its tiles to set gray/yellow/green feedback, then shows matching
 candidates and a frequency-based next-guess suggestion. See
-[`android/README.md`](android/README.md) for Android Studio and build instructions.
+[`android/README.md`](android/README.md) for app and build instructions and
+[`android/PLAY-STORE.md`](android/PLAY-STORE.md) for Google Play preparation.
 
 ## Repository layout
 

@@ -1,4 +1,4 @@
-# Wordle Coach for Android
+# Word Puzzle Coach for Android
 
 A native Android solver and coach built with Kotlin and Jetpack Compose. It
 works offline and bundles the same five-letter word list as the Python tool.
@@ -25,9 +25,16 @@ from the Actions tab with **Run workflow**.
 
 Open this `android/` directory in Android Studio, allow Gradle to sync, and run
 the `app` configuration on an emulator or Android device. The project uses
-Android Gradle Plugin 8.7.3, Kotlin 2.0.21, compile/target SDK 35, and supports
-Android 7.0 (API 24) and newer. A JDK 17 installation and Android SDK 35 are
+Android Gradle Plugin 8.10.1, Kotlin 2.0.21, compile/target SDK 36, and supports
+Android 7.0 (API 24) and newer. A JDK 17 installation and Android SDK 36 are
 required.
+
+## Google Play preparation
+
+See [`PLAY-STORE.md`](PLAY-STORE.md) for the store-listing draft, current
+submission checklist, and the manual signed Android App Bundle workflow. The
+Play listing name is **Word Puzzle Coach**; the app is an independent word
+puzzle helper and is not affiliated with or endorsed by The New York Times.
 
 The dictionary source and its MIT license are bundled in
 `app/src/main/assets/words.txt` and `app/src/main/assets/WORD-LIST-LICENSE.txt`.
