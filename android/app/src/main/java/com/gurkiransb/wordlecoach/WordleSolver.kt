@@ -40,29 +40,30 @@ object WordleSolver {
             return false
         }
 
+        val actualColors = MutableList(WORD_LENGTH) { TileColor.Gray }
+        val remainingLetters = mutableMapOf<Char, Int>()
+
+        for (position in 0 until WORD_LENGTH) {
+            if (candidate[position] == feedback.guess[position]) {
+                actualColors[position] = TileColor.Green
+            } else {
+                val letter = candidate[position]
+                remainingLetters[letter] = remainingLetters.getOrDefault(letter, 0) + 1
+            }
+        }
+
         for (position in 0 until WORD_LENGTH) {
             val letter = feedback.guess[position]
-            when (feedback.colors[position]) {
-                TileColor.Green -> if (candidate[position] != letter) return false
-                TileColor.Yellow -> if (candidate[position] == letter || letter !in candidate) {
-                    return false
+            if (actualColors[position] != TileColor.Green) {
+                val remainingCount = remainingLetters.getOrDefault(letter, 0)
+                if (remainingCount > 0) {
+                    actualColors[position] = TileColor.Yellow
+                    remainingLetters[letter] = remainingCount - 1
                 }
-                TileColor.Gray -> Unit
             }
         }
 
-        for (letter in feedback.guess.toSet()) {
-            val positions = feedback.guess.indices.filter { feedback.guess[it] == letter }
-            val knownCount = positions.count { feedback.colors[it] != TileColor.Gray }
-            val candidateCount = candidate.count { it == letter }
-            val hasGray = positions.any { feedback.colors[it] == TileColor.Gray }
-
-            if (if (hasGray) candidateCount != knownCount else candidateCount < knownCount) {
-                return false
-            }
-        }
-
-        return true
+        return actualColors == feedback.colors
     }
 
     fun solve(words: List<String>, feedbackHistory: List<GuessFeedback>): SolverResult {
