@@ -372,7 +372,7 @@ private fun EntryCard(
                     capitalization = KeyboardCapitalization.Characters,
                     imeAction = ImeAction.Done,
                 ),
-                keyboardActions = KeyboardActions(onDone = onSubmit),
+                keyboardActions = KeyboardActions(onDone = { onSubmit() }),
                 shape = RoundedCornerShape(14.dp),
             )
             Spacer(Modifier.height(15.dp))
