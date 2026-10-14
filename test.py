@@ -65,9 +65,17 @@ def reduce_words(words, characters, colors):
 				for x in range(iterable):
 					if char_col_list[x][1] == character and char_col_list[x][2] == 'y': 
 						words = words[words.str[position] != character]
-					#improve this. all positions except prev positions
-					if char_col_list[x][1] == character and char_col_list[x][2] == 'g': 
-						words = words[words.str[position] != character]	
+					if char_col_list[x][1] == character and char_col_list[x][2] == 'g':
+						green_positions = [
+							char_col_list[previous][0]
+        					for previous in range(iterable)
+        					if char_col_list[previous][1] == character
+        					and char_col_list[previous][2] == 'g'
+						]
+    					
+						for candidate_position in range(len(characters)):
+							if candidate_position not in green_positions:
+								words = words[words.str[candidate_position] != character]		
 	return words
 
 def display_statistics(words):
