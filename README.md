@@ -47,15 +47,17 @@ answer-word list is preserved as `words/backup2315words.csv`.
 
 ## Android app
 
-The Android app will be developed in the [`android/`](android/) directory,
-separately from the Python command-line tool. See its README for the current
-status and planned project location.
+The native Kotlin and Jetpack Compose app lives in the [`android/`](android/)
+directory. It works offline with the bundled word list, lets you enter a guess
+and tap its tiles to set gray/yellow/green feedback, then shows matching
+candidates and a frequency-based next-guess suggestion. See
+[`android/README.md`](android/README.md) for Android Studio and build instructions.
 
 ## Repository layout
 
 ```text
 .
-├── android/          # Android app project (planned)
+├── android/          # Native Android app (Kotlin + Jetpack Compose)
 ├── words/            # Word lists and their license
 ├── Games Played/     # Saved transcripts from previous attempts
 └── test.py           # Python command-line tool
