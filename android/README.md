@@ -18,8 +18,9 @@ The `Android` GitHub Actions workflow builds and tests this app when changes
 are pushed to `feature/android-app`. Open the repository's **Actions** tab,
 select the latest successful **Android** run, and download the
 `wordle-coach-debug-apk` artifact to get an installable debug build. The
-artifact is retained for 14 days. The workflow can also be started manually
-from the Actions tab with **Run workflow**.
+workflow also tests a signed release bundle using a throwaway CI-only key.
+The APK artifact is retained for 14 days. The workflow can also be started
+manually from the Actions tab with **Run workflow**.
 
 ## Build locally
 
