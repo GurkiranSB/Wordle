@@ -19,7 +19,7 @@
 
 - **Suggested category:** Tools
 - **Support contact:** `gurkiransb.dev@gmail.com`
-- **Privacy policy:** Add <https://gurkiransb.github.io/Wordle/privacy-policy/> to Play Console after the GitHub Pages workflow deploys it successfully.
+- **Privacy policy:** Publish the repository's `feature/android-app` branch `/docs` folder with GitHub Pages, then add <https://gurkiransb.github.io/Wordle/privacy-policy/> to Play Console.
 
 ## Before production
 
