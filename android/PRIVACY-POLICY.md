@@ -21,4 +21,7 @@ changed version is distributed.
 
 ## Contact
 
-For privacy questions, contact: **[replace with a monitored support email before publishing]**.
+For privacy questions, contact: **[gurkiransb.dev@gmail.com](mailto:gurkiransb.dev@gmail.com)**.
+
+The public web version of this policy is available at
+<https://gurkiransb.github.io/Wordle/privacy-policy/>.

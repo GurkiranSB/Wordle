@@ -18,8 +18,8 @@
   endorsed by The New York Times or the Wordle game.
 
 - **Suggested category:** Tools
-- **Support contact:** Add a monitored email address in Play Console before submission.
-- **Privacy policy:** Publish [`PRIVACY-POLICY.md`](PRIVACY-POLICY.md) at a stable public HTTPS URL and add that URL to Play Console. Replace the contact placeholder before publishing it.
+- **Support contact:** `gurkiransb.dev@gmail.com`
+- **Privacy policy:** Add <https://gurkiransb.github.io/Wordle/privacy-policy/> to Play Console after the GitHub Pages workflow deploys it successfully.
 
 ## Before production
 

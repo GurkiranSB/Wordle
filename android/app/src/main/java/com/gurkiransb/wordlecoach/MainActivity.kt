@@ -29,6 +29,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.clickable
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -51,6 +52,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.role
@@ -71,6 +73,8 @@ private val Green = Color(0xFF5B9361)
 private val Yellow = Color(0xFFC9A94A)
 private val Gray = Color(0xFF858A86)
 private val TileBorder = Color(0xFFD5D8CF)
+private const val PRIVACY_POLICY_URL =
+    "https://gurkiransb.github.io/Wordle/privacy-policy/"
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -103,6 +107,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 private fun WordleCoachApp(readWords: suspend () -> List<String>) {
+    val uriHandler = LocalUriHandler.current
     var dictionary by remember { mutableStateOf<List<String>>(emptyList()) }
     var loadError by remember { mutableStateOf<String?>(null) }
     var isLoading by remember { mutableStateOf(true) }
@@ -213,6 +218,14 @@ private fun WordleCoachApp(readWords: suspend () -> List<String>) {
                 color = Ink.copy(alpha = 0.58f),
                 style = MaterialTheme.typography.bodySmall,
                 textAlign = TextAlign.Center,
+            )
+            Text(
+                text = "Privacy policy",
+                modifier = Modifier
+                    .padding(top = 8.dp)
+                    .clickable { uriHandler.openUri(PRIVACY_POLICY_URL) },
+                color = Green,
+                style = MaterialTheme.typography.bodySmall,
             )
         }
     }
